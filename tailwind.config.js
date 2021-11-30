@@ -10,6 +10,15 @@ module.exports = {
         fancy: ["Roboto"],
         manrope: ["Manrope"],
       },
+      colors: {
+        myblack: "#282d32",
+        myblue: "#1b4f6d",
+        mygray: "#647e93",
+        mywhite: "#ecf6fe",
+        mybrown: "#937964",
+        mympez: "#D4D2CB",
+        myfooter: "#344351",
+      },
     },
   },
   variants: {
