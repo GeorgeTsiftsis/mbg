@@ -4,10 +4,7 @@ export default [
     name: "ΥΠΟΔΟΜΕΣ",
     href: "/Labfrastctures",
   },
-  {
-    name: "ΜΕΛΗ",
-    href: "/Staff",
-  },
+
   {
     name: "ΔΗΜΟΣΙΕΥΣΕΙΣ",
     href: "/LabPublications",
