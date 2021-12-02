@@ -1,7 +1,7 @@
 function Draseis() {
   return (
     <div id="section1" className="bg-mygray w-full h-auto">
-      <h1 className="text-center pt-20 font-fancy text-7xl  text-white ">
+      <h1 className="text-center pt-20 font-fancy text-6xl  text-white ">
         ΔΡΑΣΕΙΣ
       </h1>
       <h1 className="text-white text-center font-fancy  pb-8">
