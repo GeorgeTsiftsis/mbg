@@ -1,14 +1,14 @@
-import Navbar from "./navbar";
+import Navbar from "./navbar/index";
 import Footer from "./footer";
 
-function Layout({children}) {
-    return (
-        <>
-          <Navbar />
-          <main>{children}</main>
-          <Footer />
-        </>
-      );
+function Layout({ children }) {
+  return (
+    <>
+      <Navbar />
+      <main>{children}</main>
+      <Footer />
+    </>
+  );
 }
 
 export default Layout;

@@ -5,19 +5,22 @@ import { FiPhoneForwarded } from "react-icons/fi";
 
 function Footer() {
   return (
-    <div className="flex flex-col bg-myfooter text-white rounded-md">
+    <div
+      id="section2"
+      className="flex flex-col bg-myfooter text-white rounded-md py-4"
+    >
       {/* <h1 className="text-2xl font-manrope p-4 ">ΣΤΟΙΧΕΙΑ ΕΠΙΚΟΙΝΩΝΙΑΣ</h1> */}
-      <footer className=" p-4  pt-2  flex flex-col  sm:flex-row justify-around w-full">
+      <footer className="p-4 pt-2 flex flex-col sm:flex-row justify-around w-full">
         <div>
-          <h1 className="   text-4xl font-fancy border-b-2 border-mygray ">
+          <h1 className="text-4xl font-fancy border-b-2 border-mygray">
             ΕΡΓΑΣΤΗΡΙΟ
           </h1>
           <div className="flex flex-col items-center text-white pb-4">
             <div className="flex pt-1 self-start items-center">
               <BiCalendar fontSize="1.7rem" color="white" />
-              <h1 className="px-2 ">Δευτέρα-Παρασκευή </h1>
+              <h1 className="px-2">Δευτέρα-Παρασκευή </h1>
             </div>
-            <div className="flex pt-1 self-start items-center ">
+            <div className="flex pt-1 self-start items-center">
               <AiOutlineClockCircle fontSize="1.7rem" color="white" />
               <h1 className="px-2"> 9:30π.μ. -15:30μ.μ. </h1>
             </div>
@@ -33,7 +36,7 @@ function Footer() {
             </a>
 
             <a
-              className="flex pt-1 self-start items-center hover:opacity-60  "
+              className="flex pt-1 self-start items-center hover:opacity-60"
               target="_blank"
               rel="noopener noreferrer"
               href="mailto:rms.lab.duth@gmail.com"
@@ -42,14 +45,14 @@ function Footer() {
               <h1 className="px-2">rms.lab.duth@gmail.com</h1>
             </a>
             <a
-              className="flex pt-1 self-start items-start hover:opacity-60  "
+              className="flex pt-1 self-start items-start hover:opacity-60"
               target="_blank"
               rel="noopener noreferrer"
               href="https://goo.gl/maps/3gBHx7JJgcwB1zd26"
             >
               <BsPinMap fontSize="1.7rem" color="white" />
 
-              <h1 className="px-2 max-w-sm text-justify 	break-all ">
+              <h1 className="px-2 max-w-sm text-justify break-all">
                 Τμήμα Μοριακής Βιολογίας και Γενετικής κτίριο «Φώτης Καφάτος»
                 1ος όροφος Δραγανά. Δ.Π.Θ., Αλεξανδρούπολη 68100
               </h1>
@@ -58,7 +61,7 @@ function Footer() {
         </div>
 
         <div className="md:w-7/12 w-full sm:ml-2 text-white flex flex-col">
-          <h1 className=" text-white  text-4xl font-fancy border-b-2 border-mygray ">
+          <h1 className="text-white text-4xl font-fancy border-b-2 border-mygray ">
             ΜΕΛΗ ΔΕΠ
           </h1>
           <h1 className="pt-2 font-bold"> Σανδαλτζόπουλος Ραφαήλ, </h1>
@@ -125,12 +128,14 @@ function Footer() {
           </a>
         </div>
       </footer>
-      <h1 className="text-center  pt-6 opacity-80 text-base ">
+      <h1 className="text-center pt-6 opacity-80 text-base px-4 ">
         Τμήμα Μοριακής Βιολογίας και Γενετικής Δ.Π.Θ © 2021
       </h1>
-      <h1 className="text-center py-4 opacity-80 text-base underline cursor-pointer hover:text-red-400">
-        Developed by George Tsiftsis
-      </h1>
+      <a target="_blank" rel="noopener noreferrer" href="https://www.gtsif.com">
+        <h1 className="text-center py-4 opacity-80 text-base underline cursor-pointer hover:text-red-400">
+          Developed by George Tsiftsis
+        </h1>
+      </a>
     </div>
   );
 }
