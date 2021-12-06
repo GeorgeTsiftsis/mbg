@@ -9,16 +9,13 @@ export default [
     name: "ΔΗΜΟΣΙΕΥΣΕΙΣ",
     href: "/LabPublications",
   },
-  {
-    name: "ΠΡΟΓΡΑΜΜΑΤΑ",
-    href: "/Projects",
-  },
+
   {
     name: "ΑΡΧΕΙΟ",
     href: "/LabArchive",
   },
   {
-    name: "ΕΠΙΚΟΙΝΩΝΙΑ",
-    href: "/Contact",
+    name: "ΠΡΟΓΡΑΜΜΑΤΑ",
+    href: "/Programmata",
   },
 ];

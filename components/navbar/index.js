@@ -8,7 +8,7 @@ import {
 } from "react-icons/ai";
 import links from "./links";
 import { useRouter } from "next/router";
-import { Link as Scroller, animateScroll as scroll } from "react-scroll";
+import { Link as Scroller } from "react-scroll";
 import Members from "./Members";
 
 function Navbar() {
@@ -20,12 +20,14 @@ function Navbar() {
   return (
     <nav>
       <div className="flex items-center  justify-around ">
-        <img
-          // width="600"
-          className="w-3/4 max-w-xl pb-4"
-          src="/copyLabLetterheadsmall.png"
-          alt="mbg-logo"
-        />
+        <Link passHref href="/">
+          <img
+            // width="600"
+            className="w-3/4 max-w-xl pb-4"
+            src="/copyLabLetterheadsmall.png"
+            alt="mbg-logo"
+          />
+        </Link>
 
         {!navbarOpen ? (
           <AiOutlineMenu
@@ -42,23 +44,19 @@ function Navbar() {
         )}
       </div>
 
-      <div
-        className={
-          "md:flex flex-grow justify-items items-center" +
-          (navbarOpen ? "" : "hidden")
-        }
-      >
-        <ul className="flex flex-col md:flex-row md:justify-center w-full text-center flex-wrap">
-          <li className="m-1 border-2 font-medium font-manrope rounded-lg text-gray-700 hover:text-blue-400 md:border-0 md:rounded-none md:px-4 border-light-blue-400">
+      <div className={"md:flex flex-grow " + (navbarOpen ? "" : " hidden")}>
+        <ul className="flex md:flex-row flex-col md:justify-center w-full text-center flex-wrap ">
+          <li className="flex font-medium font-manrope m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400 text-gray-700 md:px-4 md:border-0 md:rounded-none">
             <Scroller
               activeClass="active"
               to="section1"
               spy={true}
               smooth={true}
               offset={-70}
-              duration={500}
+              duration={800}
+              className="text-xl"
             >
-              <a className="text-xl">ΔΡΑΣΕΙΣ</a>
+              ΔΡΑΣΕΙΣ
             </Scroller>
           </li>
           <button onClick={() => setMembers(!members)}>
@@ -97,6 +95,19 @@ function Navbar() {
               </Link>
             </li>
           ))}
+          <li className="flex font-medium font-manrope m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400 text-gray-700 md:px-4 md:border-0 md:rounded-none">
+            <Scroller
+              activeClass="active"
+              to="section2"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={1500}
+              className="text-xl"
+            >
+              ΕΠΙΚΟΙΝΩΝΙΑ
+            </Scroller>
+          </li>
         </ul>
       </div>
     </nav>

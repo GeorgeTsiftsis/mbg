@@ -5,15 +5,15 @@ function Members() {
   const router = useRouter();
 
   const memberrs = [
-    { nameofLab: "Sandatzopoulos Lab", href: "/Sandatzopoulos" },
-    { nameofLab: "Galanis Lab", href: "/Galanis" },
-    { nameofLab: "Giannakakis Lab", href: "/Giannakakis" },
+    { nameofLab: "Sandatzopoulos Lab", href: "/SandatzopoulosGroup" },
+
+    { nameofLab: "DarkMatters Group", href: "/DarkMatters/index.html" },
   ];
   return (
     <div className=" md:absolute ">
-      <ul className="font-fancy  md:relative md:bottom-0 md:right-7 z-10 opacity-60 rounded-lg px-2">
+      <ul className="font-fancy  md:relative md:bottom-0 md:right-7 z-10 opacity-70 bg-white rounded-lg px-2">
         {memberrs.map(({ nameofLab, href }) => (
-          <li key={href} className=" hover:text-blue-400 md:text-left">
+          <li key={href} className=" hover:text-blue-400   z-10 md:text-left">
             <Link href={href}>
               <a
                 className={`text-xl underline  ${
