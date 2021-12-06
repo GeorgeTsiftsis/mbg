@@ -1,7 +1,10 @@
 import Head from "next/head";
 import SimpleMap from "../components/maps/SimpleMap";
 import Draseis from "../components/Draseis";
-
+import Carousel from "../components/Carousel";
+import MiniInfo from "../components/Miniinfo";
+import MembersofDep from "../components/MembersofDep";
+import EpikentroEreunas from "../components/EpikentroEreunas";
 export default function Home() {
   return (
     <div className="py-2 flex flex-col items-center justify-center">
@@ -9,32 +12,10 @@ export default function Home() {
         <title>Theranotics MBG Duth </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1> NEW </h1>
-      <h1> NEW </h1>
-      <h1> NEW </h1>
-      <h1> NEW </h1>
-      <h1> NEW </h1>
-      <h1> NEW </h1>
-      <h1> NEW </h1>
-      <h1> NEW </h1>
-      <h1> NEW </h1>
-      <h1> NEW </h1>
-      <h1> NEW </h1>
-      <h1> NEW </h1>
-      <h1> NEW </h1>
-      <h1> NEW </h1>
-      <h1> NEW </h1>
-      <h1> NEW </h1>
-      <h1> NEW </h1>
-      <h1> NEW </h1>
-      <h1> NEW </h1>
-      <h1> NEW </h1>
-      <h1> NEW </h1>
-      <h1> NEW </h1>
-      <h1> NEW </h1>
-      <h1> NEW </h1>
-      <h1> NEW </h1>
-      <h1> NEW </h1>
+      <Carousel />
+      <MiniInfo />
+      <EpikentroEreunas />
+      <MembersofDep />
       <Draseis />
       <SimpleMap />
     </div>
