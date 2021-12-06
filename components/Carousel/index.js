@@ -22,7 +22,7 @@ const images = [
 
 function Carousel() {
   return (
-    <div className="max-w-5xl w-full " style={{ paddingTop: "3rem" }}>
+    <div className="max-w-5xl w-full pt-1 sm:pt-12 ">
       <ImageGallery
         originalWidth="100px"
         items={images}
@@ -30,6 +30,8 @@ function Carousel() {
         showBullets={true}
         showThumbnails={true}
         autoPlay={true}
+        slideDuration={1050}
+        slideInterval={5000}
       />
     </div>
   );
