@@ -2,7 +2,7 @@ import Head from "next/head";
 import SimpleMap from "../components/maps/SimpleMap";
 import Draseis from "../components/Draseis";
 import Carousel from "../components/Carousel";
-import MiniInfo from "../components/Miniinfo";
+import MiniInfo from "../components/MiniInfo/index";
 import MembersofDep from "../components/MembersofDep";
 import EpikentroEreunas from "../components/EpikentroEreunas";
 export default function Home() {
