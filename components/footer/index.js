@@ -2,13 +2,12 @@ import { BiCalendar } from "react-icons/bi";
 import { AiOutlineClockCircle, AiOutlineMail } from "react-icons/ai";
 import { BsPinMap } from "react-icons/bs";
 import { FiPhoneForwarded } from "react-icons/fi";
+import SimpleMap from "../maps/SimpleMap";
 
 function Footer() {
   return (
-    <div
-      id="section2"
-      className="flex flex-col bg-myfooter text-white rounded-md py-4"
-    >
+    <div id="section2" className="flex flex-col bg-myfooter text-white  py-4">
+      <SimpleMap />
       {/* <h1 className="text-2xl font-manrope p-4 ">ΣΤΟΙΧΕΙΑ ΕΠΙΚΟΙΝΩΝΙΑΣ</h1> */}
       <footer className="p-4 pt-2 flex flex-col sm:flex-row justify-around w-full">
         <div>
