@@ -5,6 +5,7 @@ import Carousel from "../components/Carousel";
 import MiniInfo from "../components/MiniInfo/index";
 import MembersofDep from "../components/MembersofDep";
 import EpikentroEreunas from "../components/EpikentroEreunas";
+import BottomToTop from "../components/ButtonTotop/index";
 export default function Home() {
   return (
     <div className="py-2 flex flex-col items-center justify-center">
@@ -13,6 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Carousel />
+      <BottomToTop />
       <MiniInfo />
       <EpikentroEreunas />
       <MembersofDep />
