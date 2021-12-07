@@ -21,7 +21,7 @@ function SimpleMap() {
   const api_key = process.env.NEXT_PUBLIC_API_KEY;
 
   return (
-    <div className="w-full h-96" style={{ padding: "1rem" }}>
+    <div className="w-full h-96">
       <GoogleMapReact
         bootstrapURLKeys={{
           key: `${api_key}`,
