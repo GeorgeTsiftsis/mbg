@@ -1,38 +1,42 @@
 import styled from "styled-components";
 
-const SignupForm = ({ className }) => (
+const email = "mailto:";
+
+const SignupForm = ({ className, membername, img, mail, sector, role }) => (
   <div className={className}>
     <div className="flip-card-container">
       <div className="flip-card">
-        <div className="card-front">
-          <figure>
-            <div className="img-bg"></div>
-            <img
-              src="https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-              alt="Brohm Lake"
-            />
-            <figcaption>Maria Tokamani</figcaption>
-          </figure>
-
-          <ul>
-            <li>Detail 1</li>
-            <li>Detail 2</li>
-            <li>Detail 3</li>
-            <li>Detail 4</li>
-            <li>Detail 5</li>
-          </ul>
-        </div>
-
         <div className="card-back">
           <figure>
             <div className="img-bg"></div>
-            <img
+            {/* <img
               src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
               alt="Brohm Lake"
-            />
+            /> */}
+            <figcaption>{membername}</figcaption>
           </figure>
 
-          <button>Book</button>
+          <ul>
+            <li>{sector}</li>
+            <li>{role}</li>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={email + mail}
+              className="pointer"
+            >
+              {mail}
+            </a>
+          </ul>
+        </div>
+
+        <div className="card-front">
+          <figure>
+            <div className="img-bg"></div>
+            <img src={img} alt="Brohm Lake" />
+          </figure>
+
+          <button>{membername}</button>
 
           <div className="design-container">
             <span className="design design--1"></span>
@@ -73,9 +77,9 @@ const Form = styled(SignupForm)`
     --dark: hsl(var(--hue), 25%, 10%);
     --grey: hsl(0, 0%, 50%);
 
-    width: 310px;
-    height: 500px;
-    margin: 40px;
+    width: 300px;
+    height: 390px;
+    margin: 20px;
 
     perspective: 1000px;
   }
@@ -87,7 +91,7 @@ const Form = styled(SignupForm)`
 
     position: relative;
     transform-style: preserve-3d;
-    transition: 0.6s 0.1s;
+    transition: 2s 1s;
   }
 
   /* hover and focus-within states */
@@ -101,7 +105,7 @@ const Form = styled(SignupForm)`
   .card-back {
     width: 100%;
     height: 100%;
-    border-radius: 24px;
+    // border-radius: 24px;
 
     background: var(--dark);
     position: absolute;
@@ -147,7 +151,7 @@ const Form = styled(SignupForm)`
   /* img */
   img {
     height: 100%;
-    border-radius: 24px;
+    // border-radius: 24px;
   }
 
   /* figcaption */
@@ -155,18 +159,14 @@ const Form = styled(SignupForm)`
     display: block;
 
     width: auto;
-    margin-top: 12%;
+    margin-top: 32%;
     padding: 8px 22px;
 
     font-weight: bold;
     line-height: 1.6;
     letter-spacing: 2px;
     word-spacing: 6px;
-    text-align: right;
-
-    position: absolute;
-    top: 0;
-    right: 12px;
+    text-align: center;
 
     color: var(--white-1);
     background: hsla(var(--hue), 25%, 10%, 0.5);
@@ -178,7 +178,7 @@ const Form = styled(SignupForm)`
   }
 
   .card-front .img-bg {
-    clip-path: polygon(0 20%, 100% 40%, 100% 100%, 0 100%);
+    clip-path: polygon(0 80%, 100% 90%, 100% 100%, 0 100%);
   }
 
   .card-front .img-bg::before {
@@ -199,7 +199,7 @@ const Form = styled(SignupForm)`
   }
 
   .card-back .img-bg {
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 60%);
+    clip-path: polygon(0 0%, 100% 0, 100% 80%, 0 60%);
   }
 
   /* hover state */
@@ -260,14 +260,16 @@ const Form = styled(SignupForm)`
     font-family: inherit;
     font-weight: bold;
     color: var(--white-1);
+    position: absolute;
+    bottom: 15px;
 
     letter-spacing: 2px;
 
-    padding: 9px 20px;
+    padding: 9px 15px;
     border: 1px solid var(--grey);
     border-radius: 1000px;
     background: transparent;
-    transition: 0.3s;
+    transition: 0.8s;
 
     cursor: pointer;
   }
@@ -314,7 +316,7 @@ const Form = styled(SignupForm)`
   .design--2,
   .design--3,
   .design--4 {
-    width: 1px;
+    width: 0px;
     height: 100%;
   }
 
@@ -403,7 +405,41 @@ const Form = styled(SignupForm)`
 const SingleMemberofLab = () => {
   return (
     <>
-      <Form />
+      <Form
+        membername="Μαρία Τοκαμάνη"
+        img="./Staff/profil-mt2.jpg"
+        mail="tokamanimaria@hotmail.com"
+        sector="Μοριακός Βιολόγος και Γενετίστρια"
+        role="Μεταδιδακτορική Ερευνήτρια"
+      />
+      <Form
+        membername="Ηλίας Τσοχανταρίδης"
+        img="./Staff/profil-it.jpg"
+        mail="iliatsoc@gmail.com"
+        sector="Μοριακός Βιολόγος και Γενετιστής"
+        role="Μεταδιδακτορικός Ερευνητής"
+      />
+      <Form
+        membername="Σοφία Χρονοπούλου"
+        img="./Staff/profil-sc.jpg"
+        mail="sofiachron96@gmail.com"
+        sector="Βιολόγος"
+        role="Υποψήφια Διδάκτωρ"
+      />
+      <Form
+        membername="Πέτρος Τσομακίδης"
+        img="./Staff/profil-pt.jpg"
+        mail="petrostsomakidis@gmail.com"
+        role="Μεταπτυχιακός Φοιτητής"
+        sector="Μοριακός Βιολόγος και Γενετιστής"
+      />
+      <Form
+        membername="Κερασίνα Κοκκινοπλίτη"
+        img="./Staff/profil-kdk.jpg"
+        mail="kerasoula.kok@hotmail.com"
+        role="Μεταπτυχιακή Φοιτήτρια"
+        sector="Μοριακός Βιολόγος και Γενετίστρια"
+      />
     </>
   );
 };

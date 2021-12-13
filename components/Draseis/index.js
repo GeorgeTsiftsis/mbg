@@ -13,28 +13,28 @@ function Draseis() {
           title="Ερευνητικά Προγράμματα"
           desc="Δείτε τα ερευνητικά προγράμματα"
           button="Πατήστε εδώ"
-          img="actions1.png"
+          img="/Services/actions1.png"
           link="/Programmata"
         />
         <DraseisChild
           title="Δημοσιεύσεις"
           desc="Παρακάτω μπορείτε να δείτε όλες τις δημοσιεύσεις"
           button="Πατήστε εδώ"
-          img="actions2.png"
+          img="/Services/actions2.png"
           link="/LabPublications"
         />
         <DraseisChild
           title="Ανακοινώσεις σε συνέδρια"
           desc="Όλες οι ανακοινώσεις των συνεδρίων"
           button="Πατήστε εδώ"
-          img="actions3.png"
+          img="/Services/actions3.png"
           link="/LabPublications"
         />
         <DraseisChild
           title="Πτυχιακές & Διατριβές"
           desc="Πτυχιακές & Διατριβές των εργαστηρίων"
           button="Πατήστε εδώ"
-          img="actions4.png"
+          img="/Services/actions4.png"
           link="/LabArchive"
         />
       </div>
