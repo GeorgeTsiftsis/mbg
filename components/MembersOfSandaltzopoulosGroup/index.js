@@ -421,7 +421,7 @@ const MembersOfSandaltzopoulosGroup = () => {
       />
       <ElementofSingleMember
         membername="Ηλίας Τσοχανταρίδης"
-        img="./Staff/profil-it.jpg"
+        img="./Staff/profil-it.png"
         mail="iliatsoc@gmail.com"
         sector="Μοριακός Βιολόγος και Γενετιστής"
         role="Μεταδιδακτορικός Ερευνητής"
