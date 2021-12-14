@@ -2,7 +2,14 @@ import styled from "styled-components";
 
 const email = "mailto:";
 
-const SignupForm = ({ className, membername, img, mail, sector, role }) => (
+const SingleMemberofSandalGroup = ({
+  className,
+  membername,
+  img,
+  mail,
+  sector,
+  role,
+}) => (
   <div className={className}>
     <div className="flip-card-container">
       <div className="flip-card">
@@ -53,7 +60,7 @@ const SignupForm = ({ className, membername, img, mail, sector, role }) => (
     </div>
   </div>
 );
-const Form = styled(SignupForm)`
+const ElementofSingleMember = styled(SingleMemberofSandalGroup)`
   body {
     min-height: 100vh;
     padding: 40px;
@@ -402,38 +409,38 @@ const Form = styled(SignupForm)`
   }
 `;
 
-const SingleMemberofLab = () => {
+const MembersOfSandaltzopoulosGroup = () => {
   return (
     <>
-      <Form
+      <ElementofSingleMember
         membername="Μαρία Τοκαμάνη"
         img="./Staff/profil-mt2.jpg"
         mail="tokamanimaria@hotmail.com"
         sector="Μοριακός Βιολόγος και Γενετίστρια"
         role="Μεταδιδακτορική Ερευνήτρια"
       />
-      <Form
+      <ElementofSingleMember
         membername="Ηλίας Τσοχανταρίδης"
         img="./Staff/profil-it.jpg"
         mail="iliatsoc@gmail.com"
         sector="Μοριακός Βιολόγος και Γενετιστής"
         role="Μεταδιδακτορικός Ερευνητής"
       />
-      <Form
+      <ElementofSingleMember
         membername="Σοφία Χρονοπούλου"
         img="./Staff/profil-sc.jpg"
         mail="sofiachron96@gmail.com"
         sector="Βιολόγος"
         role="Υποψήφια Διδάκτωρ"
       />
-      <Form
+      <ElementofSingleMember
         membername="Πέτρος Τσομακίδης"
         img="./Staff/profil-pt.jpg"
         mail="petrostsomakidis@gmail.com"
         role="Μεταπτυχιακός Φοιτητής"
         sector="Μοριακός Βιολόγος και Γενετιστής"
       />
-      <Form
+      <ElementofSingleMember
         membername="Κερασίνα Κοκκινοπλίτη"
         img="./Staff/profil-kdk.jpg"
         mail="kerasoula.kok@hotmail.com"
@@ -443,4 +450,4 @@ const SingleMemberofLab = () => {
     </>
   );
 };
-export default SingleMemberofLab;
+export default MembersOfSandaltzopoulosGroup;
