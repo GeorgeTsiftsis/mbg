@@ -1,4 +1,5 @@
 import MembersOfSandaltzopoulosGroup from "../components/MembersOfSandaltzopoulosGroup";
+import Graduates from "../components/MembersOfSandaltzopoulosGroup/Graduates";
 function SandatzopoulosGroup() {
   return (
     <div className=" items-center justify-items flex flex-col">
@@ -7,6 +8,7 @@ function SandatzopoulosGroup() {
       </h1>
       <div className="font-manrope flex flex-wrap items-center max-w-5xl justify-center">
         <MembersOfSandaltzopoulosGroup />
+        <Graduates />
       </div>
     </div>
   );
