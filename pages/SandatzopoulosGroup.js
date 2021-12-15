@@ -8,8 +8,8 @@ function SandatzopoulosGroup() {
       </h1>
       <div className="font-manrope flex flex-wrap items-center max-w-5xl justify-center">
         <MembersOfSandaltzopoulosGroup />
-        <Graduates />
       </div>
+      <Graduates />
     </div>
   );
 }
