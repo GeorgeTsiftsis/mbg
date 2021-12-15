@@ -7,7 +7,10 @@ function Members() {
   const memberrs = [
     { nameofLab: "Sandatzopoulos Lab", href: "/SandatzopoulosGroup" },
 
-    { nameofLab: "DarkMatters Group", href: "/DarkMatters/index.html" },
+    {
+      nameofLab: "DarkMatters Group",
+      href: "http://theranostics.mbg.duth.gr/DarkMatters/index.html",
+    },
   ];
   return (
     <div className=" md:absolute ">
