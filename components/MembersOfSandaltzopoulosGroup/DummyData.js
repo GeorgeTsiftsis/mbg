@@ -38,3 +38,13 @@ export const data3row = [
     url: " https://www.linkedin.com/in/katerina-gemenetzi-39115b113/?originalSubdomain=gr",
   },
 ];
+export const mastergraduates = [
+  { name: "Θανάσης Καραπέτσας", year: 2010 },
+  { name: "Λευτέρης Μιαούλης", year: 2017 },
+  { name: "Γρηγόρης Βουλάλας", year: 2018 },
+  { name: "Eugene Bullhysa", year: 2019 },
+  { name: "Ιωάννης Ματζιουρίδης", year: 2019 },
+  { name: "Κανέλα Καφετζοπούλου", year: 2019 },
+  { name: "Σοφία Μουράτη", year: 2019 },
+  { name: "Σοφία Χρονοπούλου", year: 2020 },
+];

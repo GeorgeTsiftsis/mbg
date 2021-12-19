@@ -1,6 +1,8 @@
 import { AiFillLinkedin } from "react-icons/ai";
 import { data1row, data2row, data3row } from "./DummyData";
+import { mastergraduates } from "./DummyData";
 function Graduates() {
+  console.log(mastergraduates.name);
   return (
     <div className="items-center justify-items p-2 flex flex-col">
       <h1 className="text-center font-manrope text-5xl underline py-8">
@@ -59,6 +61,12 @@ function Graduates() {
       <h1 className="text-center font-manrope text-3xl underline py-6">
         Απόφοιτοι Μεταπτυχιακοί
       </h1>
+
+      <ul>
+        {mastergraduates.map((element, id) => (
+          <li key={id}>{element.name}</li>
+        ))}
+      </ul>
     </div>
   );
 }
