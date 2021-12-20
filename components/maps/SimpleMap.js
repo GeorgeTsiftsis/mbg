@@ -7,7 +7,7 @@ const MyMarker = ({ text }) => (
     rel="noopener noreferrer"
     href="https://goo.gl/maps/3gBHx7JJgcwB1zd26"
   >
-    <h1 className="whitespace-nowrap">Κτίριο «Φώτης Καφάτος» </h1>
+    <h1 className="whitespace-nowrap text-black">Κτίριο «Φώτης Καφάτος» </h1>
     <h1 className="hover:text-blue-400 text-red-500 text-sm	 whitespace-nowrap">
       {text}
     </h1>
