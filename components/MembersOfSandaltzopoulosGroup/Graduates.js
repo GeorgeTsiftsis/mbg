@@ -12,7 +12,7 @@ function Graduates() {
       <h1 className="text-center font-manrope text-3xl underline py-6">
         Απόφοιτοι Διδάκτορες
       </h1>
-      <div className="pb-4 lg:w-full w-3/4 flex flex-col w-full items-center justify-center ">
+      <div className="pb-4 lg:w-full w-3/4 flex flex-col  items-center justify-center ">
         <ul className=" flex flex-wrap rounded-lg text-center underline  text-2xl border-2 flex-row justify-around items-around  ">
           <div>
             {data1row.map((element, id) => (
