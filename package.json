@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@next/eslint-plugin-next": "^12.0.4",
+    "firebase": "8.0.0",
     "google-map-react": "^2.1.10",
     "next": "latest",
     "react": "^17.0.2",
