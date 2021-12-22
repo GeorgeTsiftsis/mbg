@@ -1,6 +1,6 @@
 # Next.js + Tailwind CSS Example
 
-A molecular Biology Site built it with Next Js and Tailwind CSS. 
+A molecular Biology Site built it with Next Js, Tailwind CSS, Cloud firestore database. 
 
 Under construction.
  
