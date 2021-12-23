@@ -23,7 +23,10 @@ function Graduates() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiFillLinkedin size="2rem" className="text-mygraduatesblue " />
+                <AiFillLinkedin
+                  size="1.3em"
+                  className="text-mygraduatesblue "
+                />
                 <li>{element.name}</li>
               </a>
             ))}
@@ -37,7 +40,7 @@ function Graduates() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiFillLinkedin size="2rem" className="text-mygraduatesblue" />
+                <AiFillLinkedin size="1.3em" className="text-mygraduatesblue" />
                 <li>{element.name}</li>
               </a>
             ))}
@@ -51,7 +54,7 @@ function Graduates() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiFillLinkedin size="2rem" className="text-mygraduatesblue" />
+                <AiFillLinkedin size="1.3em" className="text-mygraduatesblue" />
                 <li>{element.name}</li>
               </a>
             ))}
