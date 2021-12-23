@@ -9,7 +9,7 @@ function Footer() {
     <div id="section2" className="flex flex-col bg-myfooter text-white  pb-4">
       <SimpleMap />
       {/* <h1 className="text-2xl font-manrope p-4 ">ΣΤΟΙΧΕΙΑ ΕΠΙΚΟΙΝΩΝΙΑΣ</h1> */}
-      <footer className="p-4 pt-2 flex flex-col sm:flex-row justify-around w-full">
+      <footer className="p-4 pt-2 flex flex-col md:flex-row justify-around w-full">
         <div>
           <h1 className="text-4xl font-fancy border-b-2 border-mygray">
             ΕΡΓΑΣΤΗΡΙΟ
@@ -51,7 +51,7 @@ function Footer() {
             >
               <BsPinMap fontSize="1.7rem" color="white" />
 
-              <h1 className="px-2 max-w-sm text-justify break-all">
+              <h1 className=" max-w-xs px-2 text-justify  ">
                 Τμήμα Μοριακής Βιολογίας και Γενετικής κτίριο «Φώτης Καφάτος»
                 1ος όροφος Δραγανά. Δ.Π.Θ., Αλεξανδρούπολη 68100
               </h1>
