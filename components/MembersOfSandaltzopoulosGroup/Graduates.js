@@ -12,8 +12,8 @@ function Graduates() {
       <h1 className="text-center font-manrope text-3xl underline py-6">
         Απόφοιτοι Διδάκτορες
       </h1>
-      <div className="pb-4 lg:w-full w-3/4 flex flex-col  items-center justify-center ">
-        <ul className=" flex flex-wrap rounded-lg text-center underline  text-2xl border-2 flex-row justify-around items-around  ">
+      <div className="pb-4 lg:w-full w-11/12 flex flex-col  items-center justify-center ">
+        <ul className=" flex flex-wrap rounded-lg text-center underline  text-xl border-2 flex-row justify-around items-around  ">
           <div>
             {data1row.map((element, id) => (
               <a
@@ -24,7 +24,7 @@ function Graduates() {
                 rel="noopener noreferrer"
               >
                 <AiFillLinkedin
-                  size="1.3em"
+                  size="1.5em"
                   className="text-mygraduatesblue "
                 />
                 <li>{element.name}</li>
@@ -40,7 +40,7 @@ function Graduates() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiFillLinkedin size="1.3em" className="text-mygraduatesblue" />
+                <AiFillLinkedin size="1.5em" className="text-mygraduatesblue" />
                 <li>{element.name}</li>
               </a>
             ))}
@@ -54,7 +54,7 @@ function Graduates() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiFillLinkedin size="1.3em" className="text-mygraduatesblue" />
+                <AiFillLinkedin size="1.5em" className="text-mygraduatesblue" />
                 <li>{element.name}</li>
               </a>
             ))}
