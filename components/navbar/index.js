@@ -46,18 +46,21 @@ function Navbar() {
 
       <div className={"md:flex flex-grow " + (navbarOpen ? "" : " hidden")}>
         <ul className="flex md:flex-row flex-col md:justify-center w-full text-center flex-wrap ">
-          <li className="flex font-medium font-manrope m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400 text-gray-700 md:px-4 md:border-0 md:rounded-none">
-            <Scroller
-              activeClass="active"
-              to="section1"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={800}
-              className="text-xl"
-            >
-              ΔΡΑΣΕΙΣ
-            </Scroller>
+          <li className="flex font-medium text-xl font-manrope m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400 text-gray-700 md:px-4 md:border-0 md:rounded-none">
+            {router.asPath == "/" ? (
+              <Scroller
+                activeClass="active"
+                to="section1"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={800}
+              >
+                ΔΡΑΣΕΙΣ
+              </Scroller>
+            ) : (
+              <Link href="/">ΔΡΑΣΕΙΣ</Link>
+            )}
           </li>
           <button onClick={() => setMembers(!members)}>
             <li
