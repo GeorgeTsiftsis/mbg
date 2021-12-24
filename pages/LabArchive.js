@@ -16,7 +16,7 @@ function LabArchive() {
           title="Σεμιλιέτωφ Κατερίνα, Ανάπτυξη και αξιολόγηση συστήματος ανθρωποποιημένων ποντικών ως προκλινικό μοντέλο καινοτόμων αντικαρκινικών ανοσοθεραπειών"
           link="https://www.didaktorika.gr/eadd/handle/10442/46049"
           year="2019"
-          state={false}
+          state={true}
         />
 
         <li className="text-xl px-2 py-1 border-2  shadow-2xl rounded-xl text-white bg-blue-400">
