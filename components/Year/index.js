@@ -15,11 +15,22 @@ function Year(props) {
       </button>
 
       {!vis19 && (
-        <a href={props.link} target="_blank" rel="noopener noreferrer">
-          <li className="max-w-5xl py-3 hover:text-blue-400 text-justify">
-            {props.title}
-          </li>
-        </a>
+        <div>
+          <a href={props.link} target="_blank" rel="noopener noreferrer">
+            <li className="max-w-5xl py-3 hover:text-blue-400 text-justify md:text-center">
+              {props.title}
+            </li>
+          </a>
+          {props.link2 && (
+            <>
+              <a href={props.link2} target="_blank" rel="noopener noreferrer">
+                <li className="max-w-5xl pb-3 hover:text-blue-400 text-justify">
+                  {props.title2}
+                </li>
+              </a>
+            </>
+          )}
+        </div>
       )}
     </div>
   );

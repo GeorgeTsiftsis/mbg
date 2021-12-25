@@ -1,5 +1,3 @@
-import { dataarchive1 } from "../components/ArchiveData/index";
-
 import Year from "../components/Year";
 
 function LabArchive() {
@@ -18,22 +16,38 @@ function LabArchive() {
           year="2019"
           state={true}
         />
-
-        <li className="text-xl px-2 py-1 border-2  shadow-2xl rounded-xl text-white bg-blue-400">
-          2018
-        </li>
-        <li className="text-xl px-2 py-1 border-2  shadow-2xl rounded-xl text-white bg-blue-400">
-          2017
-        </li>
-        <li className="text-xl px-2 py-1 border-2  shadow-2xl rounded-xl text-white bg-blue-400">
-          2014
-        </li>
-        <li className="text-xl px-2 py-1 border-2  shadow-2xl rounded-xl text-white bg-blue-400">
-          2013
-        </li>
-        <li className="text-xl px-2 py-1 border-2  shadow-2xl rounded-xl text-white bg-blue-400">
-          2007
-        </li>
+        <Year
+          title="Τοκαμάνη Μαρία, Μελέτη miRNA που εμπλέκονται σε σηματοδοτικά μονοπάτια στον καρκίνο του πνεύμονα"
+          link="https://thesis.ekt.gr/thesisBookReader/id/43980?lang=el#page/1/mode/2up"
+          year="2018"
+          state={true}
+        />
+        <Year
+          title=" Ματθαίου Ευθυμία-Ηλιάνα, Νανοθεραπευτικές προσεγγίσεις σε επιθηλιακούς καρκίνους"
+          link="https://thesis.ekt.gr/thesisBookReader/id/40575?lang=el#page/1/mode/2up"
+          year="2017"
+          state={true}
+        />
+        <Year
+          title=" Καραπέτσας Θανάσης,  Μελέτη μοριακών δεικτών στον καρκίνο των ωοθηκών"
+          link="https://thesis.ekt.gr/thesisBookReader/id/36871#page/2/mode/2up"
+          year="2014"
+          state={true}
+        />
+        <Year
+          title="Ευρυπίδης Λανίτης, Ανάπτυξη και αξιολόγηση πειραματικού συθστήματος κυτταριθκής ανοσοθεραπείας του καρκίνου των ωοθηκών"
+          link="https://thesis.ekt.gr/thesisBookReader/id/36871#page/2/mode/2up"
+          year="2013"
+          state={true}
+          title2="Ντενάρντα Ντανγκαη Ο ρόλος των μεμβρανικών γλυκοπρωτεϊνών στον καρκίνο των ωοθηκών"
+          link2="https://thesis.ekt.gr/thesisBookReader/id/28401?lang=el#page/1/mode/2up"
+        />
+        <Year
+          title="Ευρυπίδης Λανίτης, Ανάπτυξη και αξιολόγηση πειραματικού συθστήματος κυτταριθκής ανοσοθεραπείας του καρκίνου των ωοθηκών"
+          link="https://thesis.ekt.gr/thesisBookReader/id/22723?lang=el#page/1/mode/2up"
+          year="2007"
+          state={true}
+        />
       </ul>
     </div>
   );
