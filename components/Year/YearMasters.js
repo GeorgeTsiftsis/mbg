@@ -27,6 +27,139 @@ function YearMasters(props) {
               </h1>
             </>
           )}
+          {props.title3 && (
+            <>
+              <h1 className="max-w-5xl pb-3 text-justify md:text-center">
+                {props.title3}
+              </h1>
+            </>
+          )}
+          {props.title4 && (
+            <>
+              <h1 className="max-w-5xl pb-3 text-justify md:text-center">
+                {props.title4}
+              </h1>
+            </>
+          )}
+          {props.title5 && (
+            <>
+              <h1 className="max-w-5xl pb-3 text-justify md:text-center">
+                {props.title5}
+              </h1>
+            </>
+          )}
+          {props.title6 && (
+            <>
+              <h1 className="max-w-5xl pb-3 text-justify md:text-center">
+                {props.title6}
+              </h1>
+            </>
+          )}
+          {props.title7 && (
+            <>
+              <h1 className="max-w-5xl pb-3 text-justify md:text-center">
+                {props.title7}
+              </h1>
+            </>
+          )}
+          {props.title8 && (
+            <>
+              <h1 className="max-w-5xl pb-3 text-justify md:text-center">
+                {props.title8}
+              </h1>
+            </>
+          )}
+          {props.title9 && (
+            <>
+              <h1 className="max-w-5xl pb-3 text-justify md:text-center">
+                {props.title9}
+              </h1>
+            </>
+          )}
+          {props.title10 && (
+            <>
+              <h1 className="max-w-5xl pb-3 text-justify md:text-center">
+                {props.title10}
+              </h1>
+            </>
+          )}
+          {props.title11 && (
+            <>
+              <h1 className="max-w-5xl pb-3 text-justify md:text-center">
+                {props.title11}
+              </h1>
+            </>
+          )}
+          {props.title12 && (
+            <>
+              <h1 className="max-w-5xl pb-3 text-justify md:text-center">
+                {props.title12}
+              </h1>
+            </>
+          )}
+          {props.title13 && (
+            <>
+              <h1 className="max-w-5xl pb-3 text-justify md:text-center">
+                {props.title13}
+              </h1>
+            </>
+          )}
+          {props.title14 && (
+            <>
+              <h1 className="max-w-5xl pb-3 text-justify md:text-center">
+                {props.title14}
+              </h1>
+            </>
+          )}
+          {props.title15 && (
+            <>
+              <h1 className="max-w-5xl pb-3 text-justify md:text-center">
+                {props.title15}
+              </h1>
+            </>
+          )}
+          {props.title16 && (
+            <>
+              <h1 className="max-w-5xl pb-3 text-justify md:text-center">
+                {props.title16}
+              </h1>
+            </>
+          )}
+          {props.title17 && (
+            <>
+              <h1 className="max-w-5xl pb-3 text-justify md:text-center">
+                {props.title17}
+              </h1>
+            </>
+          )}
+          {props.title18 && (
+            <>
+              <h1 className="max-w-5xl pb-3 text-justify md:text-center">
+                {props.title18}
+              </h1>
+            </>
+          )}
+          {props.title19 && (
+            <>
+              <h1 className="max-w-5xl pb-3 text-justify md:text-center">
+                {props.title19}
+              </h1>
+            </>
+          )}
+          {props.title20 && (
+            <>
+              <h1 className="max-w-5xl pb-3 text-justify md:text-center">
+                {props.title20}
+              </h1>
+            </>
+          )}
+          {props.title21 && (
+            <>
+              <h1 className="max-w-5xl pb-3 text-justify md:text-center">
+                {props.title21}
+              </h1>
+            </>
+          )}
         </div>
       )}
     </div>
