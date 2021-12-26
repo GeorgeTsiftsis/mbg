@@ -1,9 +1,6 @@
+import Loading from "../components/Loading";
 function Labfrastctures() {
-  return (
-    <div>
-      <h1>Lab frastctures</h1>
-    </div>
-  );
+  return <Loading />;
 }
 
 export default Labfrastctures;
