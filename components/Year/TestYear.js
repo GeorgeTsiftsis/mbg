@@ -3,7 +3,6 @@ import { useState } from "react";
 function TestYear(props) {
   const [testVis19, testSetVis19] = useState(props.state);
   const titles = props.titles;
-  console.log(titles);
 
   return (
     <div className="flex flex-col items-center justify-center">
