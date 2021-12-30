@@ -1,12 +1,12 @@
 import DraseisChild from "./DraseisChild";
-function Draseis() {
+function Draseis(props) {
   return (
     <div id="section1" className="bg-mygray w-full h-auto pb-6">
       <h1 className="text-center pt-20 font-fancy text-6xl  text-white ">
-        ΔΡΑΣΕΙΣ
+        {props.title}
       </h1>
       <h1 className="text-white text-center font-fancy  pb-8">
-        20+ Χρόνια Εμπειρίας
+        {props.description}
       </h1>
       <div className="flex items-center justify-center w-full border-t-4  flex-wrap ">
         <DraseisChild
