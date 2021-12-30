@@ -25,7 +25,7 @@ function EpikentroChild({ title, description, letter, image }) {
           <div className="flex  flex-col justify-items justify-center ">
             <p
               style={{
-                textAlign: "justify",
+                textAlign: "center",
                 // wordSpacing: "-2px",
                 textJustify: "auto",
                 // text-align: justify;
