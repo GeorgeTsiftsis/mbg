@@ -6,7 +6,7 @@ import {
   AiOutlineCloseCircle,
   AiOutlineArrowDown,
 } from "react-icons/ai";
-import links from "./links";
+import { links } from "./links";
 import { useRouter } from "next/router";
 import { Link as Scroller } from "react-scroll";
 import Members from "./Members";
@@ -78,7 +78,20 @@ function Navbar() {
 
               <AiOutlineArrowDown />
             </li>
-            {members && <Members />}
+            {members && (
+              <div className=" md:absolute">
+                <div className="  md:relative md:bottom-0 md:right-7 z-10 ">
+                  <Members
+                    name="Sandatzopoulos Lab"
+                    href="/SandatzopoulosGroup"
+                  />
+                  <Members
+                    name="DarkMatters Group"
+                    href="http://theranostics.mbg.duth.gr/DarkMatters/index.html"
+                  />
+                </div>
+              </div>
+            )}
           </button>
 
           {links.map(({ name, href }) => (

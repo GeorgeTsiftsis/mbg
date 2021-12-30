@@ -1,5 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
-export default [
+export const links = [
   {
     name: "ΥΠΟΔΟΜΕΣ",
     href: "/Labfrastctures",
@@ -17,5 +17,20 @@ export default [
   {
     name: "ΠΡΟΓΡΑΜΜΑΤΑ",
     href: "/Programmata",
+  },
+];
+export const links2 = [
+  {
+    name: "POLYPEPPHARM",
+    href: "Polypeppharm",
+  },
+  {
+    name: "ΚΟΙΝΟΠΡΑΞΙΑ",
+    href: "Koinopraxia",
+  },
+
+  {
+    name: "ΕΝΟΤΗΤΕΣ ΕΡΓΑΣΙΑΣ",
+    href: "EnotitesErgasias",
   },
 ];
