@@ -27,6 +27,7 @@ module.exports = {
         myteal: "#528180",
         myepikentro: "#1f1f1f",
         mygraduatesblue: "#0A2864",
+        mygreen: "#27594E",
       },
     },
   },
