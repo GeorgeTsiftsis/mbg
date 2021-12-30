@@ -11,6 +11,7 @@ function MembersofDep() {
           sector="Μοριακής Βιολογίας"
           img="/sandatzopoulosRafail.jpeg"
           link="https://mbg.duth.gr/images/CVs/2018/CV_Sandaltzopoulos2018.pdf"
+          color="#344351"
         />
         <MemberofDepElement
           membername="Αντώνης Γιαννακάκης"
@@ -18,6 +19,7 @@ function MembersofDep() {
           sector="Υπολογιστικής Μοριακής Βιολογίας"
           img="/gianakakisAntonis.jpeg"
           link="https://mbg.duth.gr/images/DEP/CVs/NIH_biosketch_Giannakakis03102019.pdf"
+          color="#344351"
         />
         <MemberofDepElement
           membername="Αλέξης Γαλάνης"
@@ -25,6 +27,7 @@ function MembersofDep() {
           sector="Μοριακής Βιολογίας"
           img="/galanisDimitris.jpeg"
           link="https://mbg.duth.gr/images/DEP/Galanis/AGalanis_CV_07_2018GR.pdf"
+          color="#344351"
         />
       </div>
     </>
