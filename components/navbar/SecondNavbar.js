@@ -6,7 +6,7 @@ import {
   AiOutlineArrowDown,
   AiOutlineCloseCircle,
 } from "react-icons/ai";
-import { links2 } from "./links";
+
 import { useRouter } from "next/router";
 import { Link as Scroller } from "react-scroll";
 import Members from "./Members";
@@ -58,24 +58,11 @@ function SecondNavbar() {
       >
         <ul className="flex md:flex-row text-white flex-col md:justify-center w-full text-center flex-wrap ">
           <li className="flex text-white font-medium text-xl font-manrope m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400  md:px-4 md:border-0 md:rounded-none">
-            {router.asPath == "/" ? (
-              <Scroller
-                activeClass="active"
-                to="section1"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={800}
-              >
-                ΑΡΧΙΚΗ
-              </Scroller>
-            ) : (
-              <Link href="/">ΑΡΧΙΚΗ</Link>
-            )}
+            <Link href="/">ΑΡΧΙΚΗ</Link>
           </li>
           <button onClick={() => setMembers(!members)}>
             <li
-              className="flex   font-medium font-manrope m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400 md:px-4 md:border-0 md:rounded-none"
+              className="flex font-medium font-manrope m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400 md:px-4 md:border-0 md:rounded-none"
               key="StaffKey"
             >
               <a
@@ -101,23 +88,55 @@ function SecondNavbar() {
               </div>
             )}
           </button>
-          {links2.map(({ name, href }) => (
-            <li
-              key={name}
-              className="flex text-white font-medium text-xl font-manrope m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400  md:px-4 md:border-0 md:rounded-none"
-            >
+          <li className="flex text-white font-medium text-xl font-manrope m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400  md:px-4 md:border-0 md:rounded-none">
+            {router.asPath == "/Polypeppharm" ? (
               <Scroller
                 activeClass="active"
-                to={href}
+                to="POLYPEPPHARM"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={800}
               >
-                {name}
+                POLYPEPPHARM
               </Scroller>
-            </li>
-          ))}
+            ) : (
+              <Link href="/Polypeppharm">POLYPEPPHARM </Link>
+            )}
+          </li>
+          <li className="flex text-white font-medium text-xl font-manrope m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400  md:px-4 md:border-0 md:rounded-none">
+            {router.asPath == "/Polypeppharm" ? (
+              <Scroller
+                activeClass="active"
+                to="Koinopraxia"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={800}
+              >
+                ΚΟΙΝΟΠΡΑΞΙΑ
+              </Scroller>
+            ) : (
+              <Link href="/Polypeppharm">ΚΟΙΝΟΠΡΑΞΙΑ </Link>
+            )}
+          </li>
+          <li className="flex text-white font-medium text-xl font-manrope m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400  md:px-4 md:border-0 md:rounded-none">
+            {router.asPath == "/Polypeppharm" ? (
+              <Scroller
+                activeClass="active"
+                to="EnotitesErgasias"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={800}
+              >
+                POLYPEPPHARM
+              </Scroller>
+            ) : (
+              <Link href="/Polypeppharm">ΕΝΟΤΗΤΕΣ ΕΡΓΑΣΙΑΣ</Link>
+            )}
+          </li>
+
           <li className="flex font-medium font-manrope m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400 text-white md:px-4 md:border-0 md:rounded-none">
             <Scroller
               activeClass="active"
