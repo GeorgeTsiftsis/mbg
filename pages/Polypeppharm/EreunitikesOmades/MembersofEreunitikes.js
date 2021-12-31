@@ -1,13 +1,36 @@
-function MembersofEreunitikes({ membername, sector, role, img, color }) {
+function MembersofEreunitikes({
+  membername,
+  sector,
+  role,
+  img,
+  color,
+  unisector,
+}) {
   return (
     <div
       style={{ background: color }}
-      className="flex font-manrope  flex-col w-full  sm:w-auto p-4 m-6 border-myblue border-2 items-center rounded-lg bg-myfooter"
+      className="flex font-manrope  flex-col w-full  sm:w-auto p-4 m-6  items-center border-2 "
     >
-      <img className="rounded-t-lg w-72" src={img} alt="photoOfMember" />
-      <h1 className="my-2 text-white">{membername} </h1>
-      <p className="text-white  w-52 text-center "> {role}</p>
-      <p style={{ maxWidth: "15rem" }} className="text-white  text-center ">
+      <img className="rounded-full w-72" src={img} alt="photoOfMember" />
+      <h1 className="my-2 underline text-black">{membername} </h1>
+      <p
+        style={{ maxWidth: "15rem", height: "100px" }}
+        className="text-black  text-center  "
+      >
+        {role}
+        {unisector && (
+          <p
+            style={{ maxWidth: "15rem", height: "100px" }}
+            className="text-black  text-center"
+          >
+            {unisector}
+          </p>
+        )}
+      </p>
+      <p
+        style={{ maxWidth: "15rem", height: "100px" }}
+        className="text-black text-center  py-1 "
+      >
         {sector}
       </p>
     </div>
