@@ -92,7 +92,7 @@ function SecondNavbar() {
             {router.asPath == "/Polypeppharm" ? (
               <Scroller
                 activeClass="active"
-                to="POLYPEPPHARM"
+                to="Polypeppharm"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -130,7 +130,7 @@ function SecondNavbar() {
                 offset={-70}
                 duration={800}
               >
-                POLYPEPPHARM
+                ΕΝΟΤΗΤΕΣ ΕΡΓΑΣΙΑΣ
               </Scroller>
             ) : (
               <Link href="/Polypeppharm">ΕΝΟΤΗΤΕΣ ΕΡΓΑΣΙΑΣ</Link>
