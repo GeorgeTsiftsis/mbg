@@ -1,5 +1,3 @@
-import Koinopraxia from "./Koinopraxia";
-
 function PolypepharmProgram() {
   return (
     <div className="font-manrope p-4 py-8 max-w-5xl ">
@@ -29,7 +27,6 @@ function PolypepharmProgram() {
         σταθερότητα, βελτιωμένη λειτουργικότητα και μεγαλύτερη διάρκεια
         παραμονής στην κυκλοφορία του ασθενούς.
       </p>
-      <Koinopraxia />
     </div>
   );
 }
