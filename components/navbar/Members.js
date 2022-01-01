@@ -18,7 +18,7 @@ function Members(props) {
         <li key={href} className=" hover:text-blue-400   z-10 md:text-left">
           <Link href={href}>
             <a
-              onClick={() => state(false)}
+              onClick={() => state(true)}
               className={`text-xl underline  ${
                 router.asPath === href ? "text-blue-400" : ""
               }`}
