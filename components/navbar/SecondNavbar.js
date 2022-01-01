@@ -79,10 +79,10 @@ function SecondNavbar() {
             {members && (
               <div className=" text-black md:absolute">
                 <div className="  md:relative md:bottom-0 md:right-7 z-10 ">
-                  <Members name="Συνεργάτες" href="./Polypeppharm/Sinergates" />
+                  <Members name="Συνεργάτες" href="/Polypeppharm/Sinergates" />
                   <Members
                     name="Ερευνητικές Ομάδες"
-                    href="./Polypeppharm/EreunitikesOmades"
+                    href="/Polypeppharm/EreunitikesOmades"
                   />
                 </div>
               </div>
