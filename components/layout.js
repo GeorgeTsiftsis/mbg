@@ -6,23 +6,19 @@ import Footer from "./footer";
 
 function Layout({ children }) {
   const router = useRouter();
-  // let navbar;
-  // if (router.asPath == "/Polypeppharm") {
-  //   navbar = <SecondNavbar />;
-  // } else if (router.asPath == "/Polypeppharm/EreunitikesOmades") {
-  //   navbar = <SecondNavbar />;
-  // } else if (router.asPath == "/Polypeppharm/Sinergates") {
-  //   navbar = <SecondNavbar />;
-  // } else {
-  //   <Navbar />;
-  // }
+  let navbar;
+  if (router.asPath == "/Polypeppharm") {
+    navbar = <SecondNavbar />;
+  } else if (router.asPath == "/Polypeppharm/EreunitikesOmades") {
+    navbar = <SecondNavbar />;
+  } else if (router.asPath == "/Polypeppharm/Sinergates") {
+    navbar = <SecondNavbar />;
+  } else {
+    navbar = <Navbar />;
+  }
   return (
     <>
-      {router.asPath == "/Polypeppharm" && "/Polypeppharm/Sinergates" ? (
-        <SecondNavbar />
-      ) : (
-        <Navbar />
-      )}
+      {navbar}
       <main>{children}</main>
       <Footer />
     </>
