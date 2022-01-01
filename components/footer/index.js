@@ -128,7 +128,7 @@ function Footer() {
         </div>
       </footer>
       <h1 className="text-center pt-6 opacity-80 text-base px-4 ">
-        Τμήμα Μοριακής Βιολογίας και Γενετικής Δ.Π.Θ © 2021
+        Τμήμα Μοριακής Βιολογίας και Γενετικής Δ.Π.Θ ©{new Date().getFullYear()}
       </h1>
       <a target="_blank" rel="noopener noreferrer" href="https://www.gtsif.com">
         <h1 className="text-center py-4 opacity-80 text-base underline cursor-pointer hover:text-red-400">
