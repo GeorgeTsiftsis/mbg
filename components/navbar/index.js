@@ -84,6 +84,7 @@ function Navbar() {
                   <Members
                     name="Sandatzopoulos Lab"
                     href="/SandatzopoulosGroup"
+                    state={navbarOpen}
                   />
                   <Members
                     name="DarkMatters Group"
@@ -101,6 +102,7 @@ function Navbar() {
             >
               <Link href={href}>
                 <a
+                  onClick={() => setNavbarOpen(!navbarOpen)}
                   className={`text-xl   ${
                     router.asPath === href ? "text-blue-400" : ""
                   }`}
