@@ -89,6 +89,8 @@ function Navbar() {
                   <Members
                     name="DarkMatters Group"
                     href="http://theranostics.mbg.duth.gr/DarkMatters/index.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   />
                 </div>
               </div>
