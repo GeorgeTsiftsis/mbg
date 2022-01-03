@@ -1,10 +1,18 @@
 import { BiCalendar } from "react-icons/bi";
-import { AiOutlineClockCircle, AiOutlineMail } from "react-icons/ai";
+import {
+  AiOutlineClockCircle,
+  AiOutlineMail,
+  AiFillFacebook,
+} from "react-icons/ai";
 import { BsPinMap } from "react-icons/bs";
 import { FiPhoneForwarded } from "react-icons/fi";
 import SimpleMap from "../maps/SimpleMap";
+import Proffesor from "./Professor";
+import { useRouter } from "next/router";
 
 function Footer() {
+  const router = useRouter();
+
   return (
     <div id="section2" className="flex flex-col bg-myfooter text-white  pb-4">
       <SimpleMap />
@@ -56,6 +64,33 @@ function Footer() {
                 1ος όροφος Δραγανά. Δ.Π.Θ., Αλεξανδρούπολη 68100
               </h1>
             </a>
+
+            {router.asPath === "/Polypeppharm" ||
+            router.asPath == "/Polypeppharm/Sinergates" ||
+            router.asPath == "/Polypeppharm/EreunitikesOmades" ? (
+              <>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.facebook.com/PolypepPharm"
+                  className="flex pt-1 self-start items-start hover:opacity-60"
+                >
+                  <AiFillFacebook fontSize="1.7rem" color="white" />
+                  <h1 className="px-2"> polypeppharm </h1>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="mailto:polypeppharm@gmail.com"
+                  className="flex pt-1 self-start items-start hover:opacity-60"
+                >
+                  <AiOutlineMail fontSize="1.7rem" color="white" />
+                  <h1 className="px-2"> polypeppharm@gmail.com </h1>
+                </a>
+              </>
+            ) : (
+              ""
+            )}
           </div>
         </div>
 
@@ -63,68 +98,35 @@ function Footer() {
           <h1 className="text-white text-4xl font-fancy border-b-2 border-mygray ">
             ΜΕΛΗ ΔΕΠ
           </h1>
-          <h1 className="pt-2 font-bold"> Σανδαλτζόπουλος Ραφαήλ, </h1>
-          <h1>Καθηγητής Μοριακής Βιολογίας, Διευθυντής Εργαστηρίου</h1>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="tel:+3025510-30622"
-            className="flex pt-1 self-start items-center hover:opacity-60 "
-          >
-            <FiPhoneForwarded fontSize="1.7rem" color="white" />
-            <h1 className="px-2">(0030)-25510-30622</h1>
-          </a>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="mailto:rmsandal@mbg.duth.gr"
-            className="flex pt-1 self-start items-center hover:opacity-60 "
-          >
-            <AiOutlineMail fontSize="1.7rem" color="white" />
-            <h1 className="px-2">rmsandal@mbg.duth.gr</h1>
-          </a>
-
-          <h1 className="font-bold pt-6"> Γιαννακάκης Αντώνης, </h1>
-          <h1>Επίκουρος Καθηγητής Υπολογιστικής Μοριακής Βιολογίας</h1>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="tel:+3025510-30639"
-            className="flex pt-1 self-start items-center hover:opacity-60 "
-          >
-            <FiPhoneForwarded fontSize="1.7rem" color="white" />
-            <h1 className="px-2"> (0030)-25510-30639</h1>
-          </a>
-          <a
-            className="flex pt-1 self-start items-center hover:opacity-60"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="mailto:antgian@mbg.duth.gr"
-          >
-            <AiOutlineMail fontSize="1.7rem" color="white" />
-            <h1 className="px-2">antgian@mbg.duth.gr</h1>
-          </a>
-
-          <h1 className="font-bold pt-6"> Γαλάνης Αλέξης, </h1>
-          <h1>Αναπληρωτής Καθηγητής Μοριακής Βιολογίας</h1>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="tel:+3025510-30634"
-            className="flex pt-1 self-start items-center hover:opacity-60 "
-          >
-            <FiPhoneForwarded fontSize="1.7rem" color="white" />
-            <h1 className="px-2"> (0030)-25510-30634</h1>
-          </a>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="mailto:agalanis@mbg.duth.gr"
-            className="flex pt-1 self-start items-center hover:opacity-60 "
-          >
-            <AiOutlineMail fontSize="1.7rem" color="white" />
-            <h1 className="px-2">agalanis@mbg.duth.gr</h1>
-          </a>
+          <Proffesor
+            name="Σανδαλτζόπουλος Ραφαήλ,"
+            role="Καθηγητής Μοριακής Βιολογίας, Διευθυντής Εργαστηρίου"
+            tel="+3025510-30622"
+            telCode="(0030)-25510-30622"
+            mail="rmsandal@mbg.duth.gr"
+          />
+          {router.asPath != "/Polypeppharm" &&
+          router.asPath != "/Polypeppharm/Sinergates" &&
+          router.asPath != "/Polypeppharm/EreunitikesOmades" ? (
+            <>
+              <Proffesor
+                name="Γιαννακάκης Αντώνης,"
+                role="Επίκουρος Καθηγητής Υπολογιστικής Μοριακής Βιολογίας"
+                tel="+3025510-30639"
+                telCode="(0030)-25510-30639"
+                mail="antgian@mbg.duth.gr"
+              />
+              <Proffesor
+                name="Γαλάνης Αλέξης,"
+                role="Αναπληρωτής Καθηγητής Μοριακής Βιολογίας"
+                tel="+3025510-30634"
+                telCode="(0030)-25510-30634"
+                mail="agalanis@mbg.duth.gr"
+              />
+            </>
+          ) : (
+            ""
+          )}
         </div>
       </footer>
       <h1 className="text-center pt-6 opacity-80 text-base px-4 ">
