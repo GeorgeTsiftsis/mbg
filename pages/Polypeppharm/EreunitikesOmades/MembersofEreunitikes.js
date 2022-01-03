@@ -18,15 +18,15 @@ function MembersofEreunitikes({
         className="text-black  text-center  "
       >
         {role}
-        {unisector && (
-          <p
-            style={{ maxWidth: "15rem", height: "100px" }}
-            className="text-black  text-center"
-          >
-            {unisector}
-          </p>
-        )}
       </p>
+      {unisector && (
+        <p
+          style={{ maxWidth: "15rem", height: "100px" }}
+          className="text-black  text-center"
+        >
+          {unisector}
+        </p>
+      )}
       <p
         style={{ maxWidth: "15rem", height: "100px" }}
         className="text-black text-center  py-1 "
