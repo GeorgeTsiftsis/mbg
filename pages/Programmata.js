@@ -9,7 +9,7 @@ function Programmata() {
       <img className="w-3/4 max-w-4xl py-2 rounded-xl" src="./lampes.png" />
       <ul className="flex flex-col p-4 text-justify space-y-2 text-blue-400 items-center justify-center">
         <li className=" hover:text-blue-300 ">
-          <Link passHref href="/Polypeppharm">
+          <Link passhref href="/Polypeppharm">
             <a target="_blank" rel="noopener noreferrer">
               1. PolypepPharm: Βελτιωμένα γενόσημα πολυπεπτιδικά φάρμακα με
               καινοτόμες φαρμακοτεχνικές μορφές.
@@ -18,7 +18,6 @@ function Programmata() {
         </li>
         <li className=" hover:text-blue-300 pb-2 ">
           <a
-            passHref
             href="http://fishmid.aua.gr"
             target="_blank"
             rel="noopener noreferrer"
