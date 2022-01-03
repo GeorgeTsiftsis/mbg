@@ -1,11 +1,11 @@
 import DraseisChild from "../Draseis/DraseisChild";
 function Koinopraxia() {
   return (
-    <div id="Koinopraxia" className="bg-mygray w-full h-auto  pb-6">
+    <div id="Koinopraxia" className="bg-mygray w-full h-auto p-4  pb-6">
       <h1 className="text-center pt-20 font-fancy text-5xl  text-white ">
         Κοινοπραξία
       </h1>
-      <h1 className="text-white text-center font-fancy  text-lg  py-8">
+      <h1 className="text-white text-center font-fancy text-lg  py-8">
         Η κοινοπραξία μας αποτελείται από 12 συνεργάτες από 4 φορείς (3
         ακαδημαϊκούς φορείς και 1 επιχείρηση) οι οποίοι καλύπτουν ένα εύρος
         ειδικοτήτων.
