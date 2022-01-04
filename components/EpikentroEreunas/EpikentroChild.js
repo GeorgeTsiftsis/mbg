@@ -5,7 +5,7 @@ function EpikentroChild({ title, description, letter, image }) {
       <div className="flex flex-col bg-myepikentro hover:bg-blue-400  justify-center items-center ">
         <div className="self-center  ">
           <div className="relative">
-            <img src="./hexagon-128.png" />
+            <img src="./hexagon-128.png" alt="hexagon" />
             <h1
               style={{
                 position: "absolute",
@@ -26,15 +26,7 @@ function EpikentroChild({ title, description, letter, image }) {
             <p
               style={{
                 textAlign: "center",
-                // wordSpacing: "-2px",
                 textJustify: "auto",
-                // text-align: justify;
-                // textAlign: "center",
-                // textJustify: "inter-word",
-                // whiteSpace: "pre-line",
-                // whiteSpace: "pre-line",
-
-                // textAlignLast: "left",
               }}
               className=" place-self-start p-4 text-base text-white h-40"
             >
