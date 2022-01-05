@@ -3,34 +3,34 @@ import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";
 
 export const images = [
   {
-    original: "./Slide-1.png",
-    thumbnail: "./Slide-1.png",
+    original: "./Slide-1.jpg",
+    thumbnail: "./Slide-1.jpg",
   },
   {
-    original: "./Slide-2.png",
-    thumbnail: "./Slide-2.png",
+    original: "./Slide-2.jpg",
+    thumbnail: "./Slide-2.jpg",
   },
   {
-    original: "./Slide-3.png",
-    thumbnail: "./Slide-3.png",
+    original: "./Slide-3.jpg",
+    thumbnail: "./Slide-3.jpg",
   },
   {
-    original: "./Slide-4.png",
-    thumbnail: "./Slide-4.png",
+    original: "./Slide-4.jpg",
+    thumbnail: "./Slide-4.jpg",
   },
 ];
 export const images2 = [
   {
-    original: "./PolymerphItems/polyslide-1.png",
-    thumbnail: "./PolymerphItems/polyslide-1.png",
+    original: "./PolymerphItems/polyslide-1.jpg",
+    thumbnail: "./PolymerphItems/polyslide-1.jpg",
   },
   {
-    original: "./PolymerphItems/polyslide-2.png",
-    thumbnail: "./PolymerphItems/polyslide-2.png",
+    original: "./PolymerphItems/polyslide-2.jpg",
+    thumbnail: "./PolymerphItems/polyslide-2.jpg",
   },
   {
-    original: "./PolymerphItems/polyslide-3.png",
-    thumbnail: "./PolymerphItems/polyslide-3.png",
+    original: "./PolymerphItems/polyslide-3.jpg",
+    thumbnail: "./PolymerphItems/polyslide-3.jpg",
   },
   {
     original: "./Slide-4.png",
