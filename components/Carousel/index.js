@@ -33,8 +33,8 @@ export const images2 = [
     thumbnail: "./PolymerphItems/polyslide-3.jpg",
   },
   {
-    original: "./Slide-4.png",
-    thumbnail: "./Slide-4.png",
+    original: "./Slide-4.jpg",
+    thumbnail: "./Slide-4.jpg",
   },
 ];
 
