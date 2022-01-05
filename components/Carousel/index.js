@@ -5,18 +5,26 @@ export const images = [
   {
     original: "./Slide-1.jpg",
     thumbnail: "./Slide-1.jpg",
+    originalAlt: "cellsimage",
+    thumbnailAlt: "cellsimage",
   },
   {
     original: "./Slide-2.jpg",
     thumbnail: "./Slide-2.jpg",
+    originalAlt: "infrastructures",
+    thumbnailAlt: "infrastructures",
   },
   {
     original: "./Slide-3.jpg",
     thumbnail: "./Slide-3.jpg",
+    originalAlt: "diagram",
+    thumbnailAlt: "diagram",
   },
   {
     original: "./Slide-4.jpg",
     thumbnail: "./Slide-4.jpg",
+    originalAlt: "sunset",
+    thumbnailAlt: "sunset",
   },
 ];
 export const images2 = [
