@@ -5,7 +5,7 @@ function PhdHolders() {
     <div className="flex flex-col p-4 items-center justify-center font-manrope">
       <h1 className="text-5xl underline  text-center py-4 ">Αρχείο</h1>
       <p className="py-2 text-center">
-        Παρακάτω μπορείτε να βρείτε τις πτυχιακές διατριβές των εργαστηρίων μας
+        Παρακάτω μπορείτε να βρείτε τις διατριβές των εργαστηρίων μας
         ταξινομημενες ανα χρονολογία
       </p>
       <h1 className=" text-xl p-2 font-semibold"> Διδακτορικές Διατριβές </h1>
