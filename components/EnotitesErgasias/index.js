@@ -14,7 +14,7 @@ function EnotitesErgasias() {
         <EpikentroChild
           description="Σύνθεση ανασυνδυασμένων φαρμακευτικών πολυπεπτιδίων σε εργαστηριακή κλίμακα. 
           Ενέργειες Διάχυσης"
-          letter="I"
+          letter="1 "
           image="./EnotitesErgasias/pitem1.png"
         />
         <EpikentroChild
@@ -53,7 +53,8 @@ function EnotitesErgasias() {
           image="./EnotitesErgasias/pitem8.png"
         />
         <EpikentroChild
-          description="Μελέτη Σκοπιμότητας -Τεχνοοικονομική μελέτη. εΔΩ 2-3-4 Λεξεις ΑΚΟΜΑ"
+          description="Μελέτη Σκοπιμότητας -
+          -Τεχνοοικονομική μελέτη. "
           letter="9"
           image="./EnotitesErgasias/pitem9.png"
         />
