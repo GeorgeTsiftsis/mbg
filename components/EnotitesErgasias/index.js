@@ -53,8 +53,8 @@ function EnotitesErgasias() {
           image="./EnotitesErgasias/pitem8.png"
         />
         <EpikentroChild
-          description="Μελέτη Σκοπιμότητας -
-          -Τεχνοοικονομική μελέτη. "
+          description="Μελέτη Σκοπιμότητας 
+          -Τεχνοοικονομική μελέτη, Ανάλυση Κόστους, Έρευνα αγοράς, Βιωσημότητα "
           letter="9"
           image="./EnotitesErgasias/pitem9.png"
         />
