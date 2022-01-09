@@ -13,7 +13,7 @@ function Members(props) {
     // },
   ];
   return (
-    <ul className="font-fancy opacity-70 bg-white rounded-lg px-2">
+    <ul className="font-manrope opacity-70 bg-white rounded-lg px-2">
       {memberrs.map(({ nameofLab, href, state }) => (
         <li key={href} className=" hover:text-blue-400   z-10 md:text-left">
           <Link href={href}>

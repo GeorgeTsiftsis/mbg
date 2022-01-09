@@ -7,8 +7,8 @@ function Polypeppharm() {
   return (
     <>
       <NextSeo
-        title="Polypeppharm Theranotics MBG Duth"
-        description="Το έργο POLYPEPPHARM έχει ως στόχο την ανάπτυξη φαρμακευτικών πολυπεπτιδίων μέσω της έκφρασής τους σε ένα ευκαρυωτικό σύστημα σε αντιδιαστολή προς τα βακτηριακά συστήματα που χρησιμοποιούνται σήμερα."
+        title="Polypeppharm Duth"
+        description="Βελτιωμένα γενόσημα πολυπεπτιδικά φάρμακα με καινοτόμες φαρμακοτεχνικές μορφές."
       />
       <div className="flex flex-col justify-items items-center">
         <Carousel images={images2} />

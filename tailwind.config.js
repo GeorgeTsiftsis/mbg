@@ -6,8 +6,6 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        stick: ["Russo One"],
-        fancy: ["Roboto"],
         manrope: ["Manrope"],
       },
       fontSize: {

@@ -5,19 +5,26 @@ function Programmata() {
   return (
     <>
       <NextSeo
-        title="Προγράμματα Theranotics MBG Duth"
-        description="Τα ενεργά προγράμματα όλων των εργαστηρίων του Theranotics MBG Duth"
+        title="Προγράμματα Theranostics MBG Duth"
+        description="Eνεργά προγράμματα του Theranostics MBG Duth"
       />
-      <div className="font-manrope flex flex-col justify-center items-center">
+      <div className="font-manrope flex flex-col p-2 justify-center items-center">
         <h1 className="text-center text-5xl underline py-4">Προγράμματα</h1>
-        <h1 className=" p-2 text-3xl"> Sandaltzopoulos Laboratory</h1>
-        <h1 className=" text-xl text-left">Ενεργά ερευνητικά προγράμματα</h1>
+        <h1 className="  text-3xl text-center ">Sandaltzopoulos Laboratory</h1>
+        <h1 className=" text-xl py-2 text-center">
+          Χρηματοδοτούμενα ενεργά ερευνητικά προγράμματα
+        </h1>
+        <p className="  max-w-4xl text-justify">
+          Παρακάτω αναφέρονται τα ενεργά ερευνητικά προγράμματα τα οποία
+          λαμβάνουν χρηματοδότηση από διάφορους δημόσιους και ευρωπαικούς
+          πόρους, στα οποία είναι επιστημονικά υπεύθυνος ο κ. Σανδαλτζόπουλος
+        </p>
         <img
-          className="w-3/4 max-w-4xl py-2 rounded-xl"
+          className="w-full max-w-4xl py-2 rounded-xl"
           src="./lampes.png"
           alt="./imageofanidea"
         />
-        <ul className="flex flex-col p-4 text-justify space-y-2 text-blue-400 items-center justify-center">
+        <ul className="flex flex-col  text-justify space-y-2 text-blue-400 items-center justify-center">
           <li className=" hover:text-blue-300 ">
             <Link passhref href="/Polypeppharm">
               <a target="_blank" rel="noopener noreferrer">

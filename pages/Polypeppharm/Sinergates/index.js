@@ -4,8 +4,8 @@ function Sinergates() {
   return (
     <>
       <NextSeo
-        title="Συνεργάτες Polypeppharm Theranotics MBG Duth "
-        description="Η κοινοπραξία του Polypeppharm Theranotics MBG Duth και τα ονόματα φορέων-συνεργατών"
+        title="Συνεργάτες Polypeppharm"
+        description="Η κοινοπραξία του Polypeppharm MBG Duth και τα ονόματα φορέων-συνεργατών"
       />
       <div className="flex flex-col items-center justify-center  p-4 font-manrope">
         <h1 className="text-xl max-w-4xl  pt-12 text-justify ">
@@ -29,7 +29,7 @@ function Sinergates() {
             membername="Κατερίνα Χλίχλια"
             role="Καθηγήτρια Μοριακής Ανοσοβιολογίας, ΔΠΘ "
             sector="Επιστημονικά υπεύθυνη της Ερευνητικής Ενότητας 2"
-            img="/chiclia.png"
+            img="/profil-kc.png"
             color="white"
           />
           <MembersofEreunitikes

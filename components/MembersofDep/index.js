@@ -23,7 +23,7 @@ function MembersofDep() {
         />
         <MemberofDepElement
           membername="Αλέξης Γαλάνης"
-          role="Αναπ. Καθηγητής"
+          role="Αναπλ. Καθηγητής"
           sector="Μοριακής Βιολογίας"
           img="/galanisDimitris.jpeg"
           link="https://mbg.duth.gr/images/DEP/Galanis/AGalanis_CV_07_2018GR.pdf"

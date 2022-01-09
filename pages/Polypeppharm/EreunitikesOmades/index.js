@@ -3,8 +3,8 @@ function EreunitikesOmades() {
   return (
     <>
       <NextSeo
-        title="Ερευνητική ομάδα του Polypeppharm Theranotics MBG Duth "
-        description="Η ερευνητική ομάδα του πρόγραμματος του Polypeppharm Theranotics MBG Duth"
+        title="Ερευνητική ομάδα του Polypeppharm  "
+        description="Η ερευνητική ομάδα του πρόγραμματος του Polypeppharm"
       />
       <h1>EreunitikesOmades</h1>
     </>

@@ -7,8 +7,8 @@ function LabArchive() {
   return (
     <>
       <NextSeo
-        title="Διατριβές Theranotics MBG Duth"
-        description="Οι διατριβές των εργαστηρίων του Theranotics MBG Duth ταξινομημενες ανα χρονολογία "
+        title="Διατριβές Theranostics MBG Duth"
+        description="Οι διατριβές των εργαστηρίων του Theranostics MBG Duth ταξινομημένες ανα χρονολογία "
       />
       <div className="flex flex-col items-center justify-center">
         <PhdHolders />

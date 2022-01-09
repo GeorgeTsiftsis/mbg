@@ -4,8 +4,8 @@ function Labfrastctures() {
   return (
     <>
       <NextSeo
-        title="Υποδομές Theranotics MBG Duth"
-        description="Υποδομές του Theranotics MBG Duth"
+        title="Υποδομές Theranostics MBG Duth"
+        description="Υποδομές του Theranostics MBG Duth"
       />
       <Loading />
     </>

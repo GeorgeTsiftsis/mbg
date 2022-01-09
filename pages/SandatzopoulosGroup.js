@@ -5,7 +5,7 @@ function SandatzopoulosGroup() {
   return (
     <>
       <NextSeo
-        title="Μέλη Εργαστηρίου του Theranotics MBG Duth"
+        title="Μέλη Εργαστηρίου του Theranostics MBG Duth"
         description="Τα Μέλη του εργαστηρίου μας"
       />
       <div className=" items-center justify-items flex flex-col">

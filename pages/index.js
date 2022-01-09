@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <NextSeo
-        title="Theranotics MBG Duth"
+        title="Theranostics MBG Duth"
         description="Εργαστήριο Γονιδιακής Έκφρασης, Μοριακής Διάγνωσης και Σύγχρονων
       Θεραπευτικών Μέσων του τμήματος Μοριακής Βιολογίας και Γενετικής, των
       Σχολών Υγείας του ΔΠΘ."

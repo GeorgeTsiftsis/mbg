@@ -19,7 +19,7 @@ function Footer() {
       {/* <h1 className="text-2xl font-manrope p-4 ">ΣΤΟΙΧΕΙΑ ΕΠΙΚΟΙΝΩΝΙΑΣ</h1> */}
       <footer className="p-4 pt-2 flex flex-col md:flex-row justify-around w-full">
         <div>
-          <h1 className="text-4xl font-fancy border-b-2 border-mygray">
+          <h1 className="text-4xl font-manrope border-b-2 border-mygray">
             ΕΡΓΑΣΤΗΡΙΟ
           </h1>
           <div className="flex flex-col items-center text-white pb-4">
@@ -95,7 +95,7 @@ function Footer() {
         </div>
 
         <div className="md:w-7/12 w-full sm:ml-2 text-white flex flex-col">
-          <h1 className="text-white text-4xl font-fancy border-b-2 border-mygray ">
+          <h1 className="text-white text-4xl font-manrope border-b-2 border-mygray ">
             ΜΕΛΗ ΔΕΠ
           </h1>
           <Proffesor
