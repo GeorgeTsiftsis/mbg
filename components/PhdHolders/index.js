@@ -2,7 +2,7 @@ import Year from "../../components/Year/index";
 
 function PhdHolders() {
   return (
-    <div className="flex flex-col p-4 items-center justify-center font-manrope">
+    <div className="flex flex-col p-4 items-center justify-center ">
       <h1 className="text-5xl underline  text-center py-4 ">Αρχείο</h1>
       <p className="py-2 text-center">
         Παρακάτω μπορείτε να βρείτε τις διατριβές των εργαστηρίων μας

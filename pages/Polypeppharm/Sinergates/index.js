@@ -7,7 +7,7 @@ function Sinergates() {
         title="Συνεργάτες Polypeppharm"
         description="Η κοινοπραξία του Polypeppharm MBG Duth και τα ονόματα φορέων-συνεργατών"
       />
-      <div className="flex flex-col items-center justify-center  p-4 font-manrope">
+      <div className="flex flex-col items-center justify-center  p-4 ">
         <h1 className="text-xl max-w-4xl  pt-12 text-justify ">
           Η κοινοπραξία μας αποτελείται από 12 συνεργάτες από 4 φορείς (3
           ακαδημαϊκούς φορείς και 1 επιχείρηση) οι οποίοι καλύπτουν ένα εύρος

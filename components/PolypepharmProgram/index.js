@@ -1,6 +1,6 @@
 function PolypepharmProgram() {
   return (
-    <div className="font-manrope p-4 py-8 max-w-5xl ">
+    <div className=" p-4 py-8 max-w-5xl ">
       <h1 className=" text-lg pb-2 ">
         ΤΙΤΛΟΣ: Βελτιωμένα γενόσημα πολυπεπτιδικά φάρμακα με καινοτόμες
         φαρμακοτεχνικές μορφές.

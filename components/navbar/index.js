@@ -18,7 +18,7 @@ function Navbar() {
   const [members, setMembers] = useState(false);
 
   return (
-    <nav>
+    <nav className="font-manrope">
       <div className="flex items-center  justify-around ">
         <Link passHref href="/">
           <img
@@ -46,7 +46,7 @@ function Navbar() {
 
       <div className={"md:flex flex-grow " + (navbarOpen ? "" : " hidden")}>
         <ul className="flex md:flex-row flex-col md:justify-center w-full text-center flex-wrap ">
-          <li className="flex font-medium text-xl font-manrope m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400 text-gray-700 md:px-4 md:border-0 md:rounded-none">
+          <li className="flex font-medium text-xl  m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400 text-gray-700 md:px-4 md:border-0 md:rounded-none">
             {router.asPath == "/" ? (
               <Scroller
                 activeClass="active"
@@ -64,7 +64,7 @@ function Navbar() {
           </li>
           <button onClick={() => setMembers(!members)}>
             <li
-              className="flex font-medium font-manrope m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400 text-gray-700 md:px-4 md:border-0 md:rounded-none"
+              className="flex font-medium m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400 text-gray-700 md:px-4 md:border-0 md:rounded-none"
               key="StaffKey"
             >
               <a
@@ -99,7 +99,7 @@ function Navbar() {
 
           {links.map(({ name, href }) => (
             <li
-              className="m-1 font-manrope text-gray-700 hover:text-blue-400 text-xl border-2 border-light-blue-400 rounded-lg md:px-4 md:border-0 md:rounded-none"
+              className="m-1  text-gray-700 hover:text-blue-400 text-xl border-2 border-light-blue-400 rounded-lg md:px-4 md:border-0 md:rounded-none"
               key={name}
             >
               <Link href={href}>
@@ -115,7 +115,7 @@ function Navbar() {
               </Link>
             </li>
           ))}
-          <li className="flex font-medium font-manrope m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400 text-gray-700 md:px-4 md:border-0 md:rounded-none">
+          <li className="flex font-medium  m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400 text-gray-700 md:px-4 md:border-0 md:rounded-none">
             <Scroller
               activeClass="active"
               to="section2"

@@ -4,11 +4,11 @@ import { mastergraduates } from "./DummyData";
 function Graduates() {
   return (
     <div className="items-center justify-items p-2 flex flex-col">
-      <h1 className="text-center font-manrope text-5xl underline py-8">
+      <h1 className="text-center  text-5xl underline py-8">
         Απόφοιτοι Εργαστηρίου
       </h1>
       <img alt="graduates" src="./academics.png" className="rounded-lg" />
-      <h1 className="text-center font-manrope text-3xl underline py-6">
+      <h1 className="text-center  text-3xl underline py-6">
         Απόφοιτοι Διδάκτορες
       </h1>
       <div className="pb-4 lg:w-full w-11/12 flex flex-col  items-center justify-center ">
@@ -60,7 +60,7 @@ function Graduates() {
           </ul>
         </ul>
       </div>
-      <h1 className="text-center font-manrope text-3xl underline py-6">
+      <h1 className="text-center text-3xl underline py-6">
         Απόφοιτοι Μεταπτυχιακοί
       </h1>
 

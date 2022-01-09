@@ -8,7 +8,7 @@ function Programmata() {
         title="Προγράμματα Theranostics MBG Duth"
         description="Eνεργά προγράμματα του Theranostics MBG Duth"
       />
-      <div className="font-manrope flex flex-col p-2 justify-center items-center">
+      <div className=" flex flex-col p-2 justify-center items-center">
         <h1 className="text-center text-5xl underline py-4">Προγράμματα</h1>
         <h1 className="  text-3xl text-center ">Sandaltzopoulos Laboratory</h1>
         <h1 className=" text-xl py-2 text-center">

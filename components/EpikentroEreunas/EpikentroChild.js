@@ -1,6 +1,6 @@
 function EpikentroChild({ title, description, letter, image }) {
   return (
-    <div className=" flex flex-col  drop-shadow-2xl md:w-80 justify-center items-center  font-manrope  m-4  ">
+    <div className=" flex flex-col  drop-shadow-2xl md:w-80 justify-center items-center   m-4  ">
       <img className=" w-full" alt="Biomarkers" src={image} />
       <div className="flex flex-col bg-myepikentro hover:bg-blue-400  justify-center items-center ">
         <div className="self-center  ">

@@ -18,7 +18,7 @@ function SecondNavbar() {
   const [members, setMembers] = useState(false);
 
   return (
-    <nav>
+    <nav className="font-manrope">
       <div className="flex items-center max-w-5xl  justify-around ">
         <Link passHref href="/">
           <img
@@ -57,12 +57,12 @@ function SecondNavbar() {
         }
       >
         <ul className="flex md:flex-row text-white flex-col md:justify-center w-full text-center flex-wrap ">
-          <li className="flex text-white font-medium text-xl font-manrope m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400  md:px-4 md:border-0 md:rounded-none">
+          <li className="flex text-white font-medium text-xl m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400  md:px-4 md:border-0 md:rounded-none">
             <Link href="/">ΑΡΧΙΚΗ</Link>
           </li>
           <button onClick={() => setMembers(!members)}>
             <li
-              className="flex font-medium font-manrope m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400 md:px-4 md:border-0 md:rounded-none"
+              className="flex font-medium  m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400 md:px-4 md:border-0 md:rounded-none"
               key="StaffKey"
             >
               <a
@@ -88,7 +88,7 @@ function SecondNavbar() {
               </div>
             )}
           </button>
-          <li className="flex text-white font-medium text-xl font-manrope m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400  md:px-4 md:border-0 md:rounded-none">
+          <li className="flex text-white font-medium text-xl  m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400  md:px-4 md:border-0 md:rounded-none">
             {router.asPath == "/Polypeppharm" ? (
               <Scroller
                 activeClass="active"
@@ -104,7 +104,7 @@ function SecondNavbar() {
               <Link href="/Polypeppharm">POLYPEPPHARM </Link>
             )}
           </li>
-          <li className="flex text-white font-medium text-xl font-manrope m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400  md:px-4 md:border-0 md:rounded-none">
+          <li className="flex text-white font-medium text-xl  m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400  md:px-4 md:border-0 md:rounded-none">
             {router.asPath == "/Polypeppharm" ? (
               <Scroller
                 activeClass="active"
@@ -120,7 +120,7 @@ function SecondNavbar() {
               <Link href="/Polypeppharm">ΚΟΙΝΟΠΡΑΞΙΑ </Link>
             )}
           </li>
-          <li className="flex text-white font-medium text-xl font-manrope m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400  md:px-4 md:border-0 md:rounded-none">
+          <li className="flex text-white font-medium text-xl m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400  md:px-4 md:border-0 md:rounded-none">
             {router.asPath == "/Polypeppharm" ? (
               <Scroller
                 activeClass="active"
@@ -137,7 +137,7 @@ function SecondNavbar() {
             )}
           </li>
 
-          <li className="flex font-medium font-manrope m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400 text-white md:px-4 md:border-0 md:rounded-none">
+          <li className="flex font-medium m-1 hover:text-blue-400 items-center justify-center rounded-lg border-2 border-light-blue-400 text-white md:px-4 md:border-0 md:rounded-none">
             <Scroller
               activeClass="active"
               to="section2"

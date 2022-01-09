@@ -1,6 +1,6 @@
 function MiniInfo() {
   return (
-    <div className="p-4 space-y-2 font-manrope max-w-5xl text-justify ">
+    <div className="p-4 space-y-2 max-w-5xl text-justify ">
       <h1 className="text-blue-400 text-2xl text-center pb-2">
         Το εργαστήριο μας
       </h1>

@@ -20,7 +20,7 @@ import {
 import TestYear from "../Year/TestYear";
 function BachelorHolders() {
   return (
-    <div className="flex flex-col p-4 text-center max-w-4xl  items-center justify-center font-manrope">
+    <div className="flex flex-col p-4 text-center max-w-4xl  items-center justify-center ">
       <h1 className=" text-xl p-2 font-semibold"> Διπλωματικές Εργασίες </h1>
       <TestYear titles={dataarchive2021} year="2021" state={true} />
       <TestYear titles={dataarchive2020} year="2020" state={true} />

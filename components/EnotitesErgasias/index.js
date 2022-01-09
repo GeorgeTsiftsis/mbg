@@ -5,7 +5,7 @@ function EnotitesErgasias() {
   return (
     <div
       id="EnotitesErgasias"
-      className="p-4 space-y-2 font-manrope max-w-6xl text-justify "
+      className="p-4 space-y-2  max-w-6xl text-justify "
     >
       <h1 className="text-blue-400 text-2xl text-center pb-2">
         Ενότητες Εργασίας

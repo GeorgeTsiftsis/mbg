@@ -1,7 +1,7 @@
 import YearMasters from "../Year/YearMasters";
 function MastersHolders() {
   return (
-    <div className="flex flex-col p-4 text-center max-w-4xl  items-center justify-center font-manrope">
+    <div className="flex flex-col p-4 text-center max-w-4xl  items-center justify-center ">
       <h1 className="max-2-xl">
         Τα ψηφιακά αρχεία των διπλωματικών και των μεταπτυχιακών εργασιών είναι
         αναρτημένα στο

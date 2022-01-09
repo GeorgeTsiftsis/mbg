@@ -16,7 +16,7 @@ function Layout({ children }) {
       ) : (
         <SecondNavbar />
       )}
-      <main>{children}</main>
+      <main className="font-manrope">{children}</main>
       <Footer />
     </>
   );

@@ -1,7 +1,7 @@
 import Link from "next/link";
 function DraseisChild({ title, title2, desc, button, img, link, link2 }) {
   return (
-    <div className="font-manrope flex flex-col items-center w-62  p-2">
+    <div className="flex flex-col items-center w-62  p-2">
       <img src={img} alt={img + "image"} />
       {title && (
         <h1 className="text-white pb-2  text-center text-xl">{title}</h1>

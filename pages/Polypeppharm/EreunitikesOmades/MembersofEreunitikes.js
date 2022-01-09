@@ -9,7 +9,7 @@ function MembersofEreunitikes({
   return (
     <div
       style={{ background: color }}
-      className="flex font-manrope  flex-col w-full  sm:w-auto p-4 m-6  items-center border-2 "
+      className="flex flex-col w-full  sm:w-auto p-4 m-6  items-center border-2 "
     >
       <img className="rounded-full w-72" src={img} alt="photoOfMember" />
       <h1 className="my-2 underline text-black">{membername} </h1>

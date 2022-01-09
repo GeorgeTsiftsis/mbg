@@ -3,7 +3,7 @@ import MemberofDepElement from "./MemberofDepElement";
 function MembersofDep() {
   return (
     <>
-      <h1 className="text-6xl pt-12 text-center font-manrope">ΜΕΛΗ ΔΕΠ</h1>
+      <h1 className="text-6xl pt-12 text-center">ΜΕΛΗ ΔΕΠ</h1>
       <div className="flex max-w-7xl flex-wrap items-center justify-center">
         <MemberofDepElement
           membername="Σανδαλτζόπουλος Ραφαηλ"
