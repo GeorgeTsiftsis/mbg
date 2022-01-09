@@ -2,10 +2,10 @@ import DraseisChild from "./DraseisChild";
 function Draseis(props) {
   return (
     <div id="section1" className="bg-mygray w-full h-auto pb-6">
-      <h1 className="text-center pt-20 font-fancy text-6xl  text-white ">
+      <h1 className="text-center pt-20 font-manrope text-6xl  text-white ">
         {props.title}
       </h1>
-      <h1 className="text-white text-center font-fancy  pb-8">
+      <h1 className="text-white text-center font-manrope  pb-8">
         {props.description}
       </h1>
       <div className="flex items-center justify-center w-full border-t-4  flex-wrap ">
@@ -23,13 +23,13 @@ function Draseis(props) {
           img="/Services/actions2.png"
           link="/LabPublications"
         />
-        <DraseisChild
+        {/* <DraseisChild
           title="Ανακοινώσεις σε συνέδρια"
           desc="Όλες οι ανακοινώσεις των συνεδρίων"
           button="Πατήστε εδώ"
           img="/Services/actions3.png"
           link="/LabPublications"
-        />
+        /> */}
         <DraseisChild
           title="Πτυχιακές & Διατριβές"
           desc="Πτυχιακές & Διατριβές των εργαστηρίων"
