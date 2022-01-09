@@ -14,7 +14,10 @@ function Footer() {
   const router = useRouter();
 
   return (
-    <div id="section2" className="flex flex-col bg-myfooter text-white  pb-4">
+    <div
+      id="section2"
+      className="flex font-manrope flex-col bg-myfooter text-white  pb-4"
+    >
       <SimpleMap />
       <footer className="p-4 pt-2 flex flex-col md:flex-row justify-around w-full">
         <div>
