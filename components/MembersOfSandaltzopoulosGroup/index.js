@@ -40,41 +40,16 @@ const SingleMemberofSandalGroup = ({
         <div className="card-front">
           <figure>
             <div className="img-bg"></div>
-            <img src={img} alt="Brohm Lake" />
+            <img src={img} alt={img} />
           </figure>
 
           <button>{membername}</button>
-
-          <div className="design-container">
-            <span className="design design--1"></span>
-            <span className="design design--2"></span>
-            <span className="design design--3"></span>
-            <span className="design design--4"></span>
-            <span className="design design--5"></span>
-            <span className="design design--6"></span>
-            <span className="design design--7"></span>
-            <span className="design design--8"></span>
-          </div>
         </div>
       </div>
     </div>
   </div>
 );
-const ElementofSingleMember = styled(SingleMemberofSandalGroup)`
-  body {
-    min-height: 100vh;
-    padding: 40px;
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-
-    background: hsl(220, 10%, 12%);
-    font-family: "Lato", "Segoe Ui", -apple-system, BlinkMacSystemFont,
-      sans-serif;
-  }
-
+export const ElementofSingleMember = styled(SingleMemberofSandalGroup)`
   /* .flip-card-container */
   .flip-card-container {
     --hue: 150;
@@ -112,7 +87,6 @@ const ElementofSingleMember = styled(SingleMemberofSandalGroup)`
   .card-back {
     width: 100%;
     height: 100%;
-    // border-radius: 24px;
 
     background: var(--dark);
     position: absolute;
@@ -292,120 +266,12 @@ const ElementofSingleMember = styled(SingleMemberofSandalGroup)`
     transform: translate(2px);
   }
 
-  /* .design-container */
-  .design-container {
-    --tr: 90;
-    --op: 0.5;
-
-    width: 100%;
-    height: 100%;
-
-    background: transparent;
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    pointer-events: none;
-  }
-
-  /* .design */
-  .design {
-    display: block;
-
-    background: var(--grey);
-    position: absolute;
-
-    opacity: var(--op);
-    transition: 0.3s;
-  }
-
-  .design--1,
-  .design--2,
-  .design--3,
-  .design--4 {
-    width: 0px;
-    height: 100%;
-  }
-
-  .design--1,
-  .design--2 {
-    top: 0;
-    transform: translateY(calc((var(--tr) - (var(--tr) * 2)) * 1%));
-  }
-
-  .design--1 {
-    left: 20%;
-  }
-
-  .design--2 {
-    left: 80%;
-  }
-
-  .design--3,
-  .design--4 {
-    bottom: 0;
-    transform: translateY(calc((var(--tr) + (var(--tr) - var(--tr))) * 1%));
-  }
-
-  .design--3 {
-    left: 24%;
-  }
-
-  .design--4 {
-    left: 76%;
-  }
-
-  .design--5,
-  .design--6,
-  .design--7,
-  .design--8 {
-    width: 100%;
-    height: 1px;
-  }
-
-  .design--5,
-  .design--6 {
-    left: 0;
-    transform: translateX(calc((var(--tr) - (var(--tr) * 2)) * 1%));
-  }
-
-  .design--5 {
-    top: 41%;
-  }
-
-  .design--6 {
-    top: 59%;
-  }
-
-  .design--7,
-  .design--8 {
-    right: 0;
-    transform: translateX(calc((var(--tr) + (var(--tr) - var(--tr))) * 1%));
-  }
-
-  .design--7 {
-    top: 44%;
-  }
-
-  .design--8 {
-    top: 56%;
-  }
-
   /* states */
   button:hover + .design-container,
   button:active + .design-container,
   button:focus + .design-container {
     --tr: 20;
     --op: 0.7;
-  }
-
-  .abs-site-link {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    color: hsla(0, 0%, 100%, 0.6);
-    font-size: 16px;
-    font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
   }
 `;
 
