@@ -1,6 +1,15 @@
 import { AiFillLinkedin } from "react-icons/ai";
-import { data1row, data2row, data3row } from "./DummyData";
-import { mastergraduates } from "./DummyData";
+import {
+  data1row,
+  data2row,
+  data3row,
+  mastergraduates,
+  bachelorgraduates1,
+  bachelorgraduates2,
+  bachelorgraduates3,
+} from "./DummyData";
+import { chunk } from "lodash";
+
 function Graduates() {
   return (
     <div className="items-center justify-items p-2 flex flex-col">
@@ -48,7 +57,11 @@ function Graduates() {
             {data3row.map((element, id) => (
               <a
                 key={id}
-                className="flex items-center p-2 hover:text-blue-400  "
+                className={
+                  element.url
+                    ? " flex items-center p-2 hover:text-blue-400"
+                    : " flex items-center p-2"
+                }
                 href={element.url}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -69,6 +82,34 @@ function Graduates() {
           <li key={id}>{element.name}</li>
         ))}
       </ul>
+      <h1 className="text-center  text-3xl underline py-6">
+        Απόφοιτοι Προπτυχιακοί
+      </h1>
+      <div className="pb-4 lg:w-full w-11/12 flex flex-col  items-center justify-center ">
+        <ul className=" flex flex-wrap rounded-lg text-center  border-2 flex-row justify-around items-around  ">
+          <div>
+            {bachelorgraduates1.map((element, id) => (
+              <li className="items-center flex-col p-2 " key={id}>
+                {element.name}
+              </li>
+            ))}
+          </div>
+          <div>
+            {bachelorgraduates2.map((element, id) => (
+              <li className="items-center flex-col p-2 " key={id}>
+                {element.name}
+              </li>
+            ))}
+          </div>
+          <div>
+            {bachelorgraduates3.map((element, id) => (
+              <li className="items-center flex-col p-2 " key={id}>
+                {element.name}
+              </li>
+            ))}
+          </div>
+        </ul>
+      </div>
     </div>
   );
 }
