@@ -5,7 +5,13 @@ function Members(props) {
   const router = useRouter();
 
   const memberrs = [
-    { nameofLab: props.name, href: props.href, state: props.state },
+    {
+      nameofLab: props.name,
+      href: props.href,
+      state: props.state,
+      target: props.target,
+      rel: props.rel,
+    },
 
     // {
     //   nameofLab: "DarkMatters Group",
@@ -14,7 +20,7 @@ function Members(props) {
   ];
   return (
     <ul className="opacity-70 bg-white rounded-lg px-2">
-      {memberrs.map(({ nameofLab, href, state }) => (
+      {memberrs.map(({ nameofLab, href, state, target, rel }) => (
         <li key={href} className=" hover:text-blue-400   z-10 md:text-left">
           <Link href={href}>
             <a
@@ -23,6 +29,8 @@ function Members(props) {
                 router.asPath === href ? "text-blue-400" : ""
               }`}
               passhref={href}
+              target={target}
+              rel={rel}
             >
               {nameofLab}
             </a>
