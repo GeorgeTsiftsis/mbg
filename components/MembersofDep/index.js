@@ -9,7 +9,7 @@ function MembersofDep() {
           membername="Σανδαλτζόπουλος Ραφαηλ"
           role="Καθηγητής "
           sector="Μοριακής Βιολογίας"
-          img="/sandatzopoulosRafail.jpeg"
+          img="/profil-srr2.png"
           link="https://mbg.duth.gr/images/CVs/2018/CV_Sandaltzopoulos2018.pdf"
           color="#344351"
         />
@@ -17,7 +17,7 @@ function MembersofDep() {
           membername="Αντώνης Γιαννακάκης"
           role="Επικ. Καθηγητής"
           sector="Υπολογιστικής Μοριακής Βιολογίας"
-          img="/gianakakisAntonis.jpeg"
+          img="/profil-agian.png"
           link="https://mbg.duth.gr/images/DEP/CVs/NIH_biosketch_Giannakakis03102019.pdf"
           color="#344351"
         />

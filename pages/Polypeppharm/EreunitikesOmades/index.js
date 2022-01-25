@@ -8,10 +8,10 @@ function EreunitikesOmades() {
         description="Η ερευνητική ομάδα του πρόγραμματος του Polypeppharm"
       />
       <div className="flex flex-col items-center justify-center  p-4 ">
-        <h1 className="py-4 text-xl   font-medium underline text-center">
+        <h1 className="py-4 text-2xl   font-medium underline text-center">
           Ερευνητικές ομάδες
         </h1>
-        <h1>Ερευνητική ομάδα ΔΠΘ</h1>
+        <h1 className="text-lg py-2">Ερευνητική ομάδα ΔΠΘ</h1>
         <div className="flex max-w-7xl flex-wrap items-center justify-center ">
           <MembersofEreunitikes
             membername="Μαρία Τοκαμάνη"
